@@ -58,29 +58,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  - goed te lezen in bijna kleuren blinden opties
+  - Advertentie staan goed uit elkaar
+
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  - Er staan veel onzichtbare html text dat niet te zien is maar wel word opgelezen.
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  - Er staan veel onzichtbare html text dat niet te zien is maar wel word opgelezen.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  - Headings hebben niet de juiste namen
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  - De knoppen zitten te dicht op elkaar, waardoor het bijna onmogelijk is om de gewenste knop in te drukken.
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  - Blurred vision: text was niet goed te lezen
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  - Achromatopsia: de gekleurde hover knoppen zijn niet te zien
 
+  - Dark mode en light zouden een paar veranderingen kunnen krijgen om ze beter te onderscheiden
 </details>
 
 
