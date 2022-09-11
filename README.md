@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   De website die ik ga namake is: https://pcpartpicker.com
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Dit is de Home-pagina
+  Dit is de Home-pagina.
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Home page">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Dit is de pagina om je eigen PC  
+  Dit is de pagina om complete pc buils te bekijken.
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
