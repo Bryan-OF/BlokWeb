@@ -90,7 +90,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### de hele pagina: 
   <img src="readme-images/breakdown_shets-01.png" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
+  ### Courosel van de home pagina: 
   <img src="readme-images/breakdown_shets_Artboard 2.png" width="275px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
