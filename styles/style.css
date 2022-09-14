@@ -18,8 +18,15 @@ button, summary {
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
+	--color-text:#FFFFFF;
 	--color-background:#eee;
+	--color-footer-text: #3084c4;
+	--color-text-nr2:#191B2A;
+	--color-nav: #14141c;
+	--color-main: #282c3c;
+	--color-build-guides: #444848;
+	--color-featured-build: #e86424;
+	--color-courosel: #b88c5c;
 }
 
 
@@ -35,5 +42,95 @@ button, summary {
 body {
   color:var(--color-text);
   background-color:var(--color-background);
+  font-family:'Segoe UI', Arial, Helvetica, sans-serif;
 }
 
+
+
+
+
+header {
+	background-color:var(--color-nav);
+}
+
+
+
+
+main {
+	background-color:var(--color-background);
+}
+
+
+
+
+section {
+	text-align: center;
+}
+
+
+
+
+
+section:nth-of-type(1){
+	background-color:var(--color-main);
+	padding: 2em;
+}
+
+
+
+
+
+section:nth-of-type(2){
+	background-color:var(--color-build-guides);
+}
+
+
+
+
+
+li {
+	list-style:none ;
+}
+
+
+
+
+section ul {
+	text-align: left;
+	background-color: var(--color-courosel);
+}
+
+
+
+
+
+h3 {
+	color: var(--color-text-nr2);
+	text-align: center;
+}
+
+
+
+
+
+footer {
+	background-color:var(--color-main);
+}
+
+
+
+
+
+footer h3 {
+	color: var(--color-text);
+	text-align: left;
+}
+
+
+
+
+
+footer a {
+	color:var(--color-footer-text);
+	padding: 0em;
+}
