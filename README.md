@@ -94,10 +94,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/breakdown_shets-01.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/breakdown_shets-02.png" width="275px" alt="breakdown van een dynamisch deel">
+  <img src="breakdown_shets_Artboard 2.png" width="275px" alt="breakdown van een carrousel deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="dropdown_menu" width="375px" alt="breakdown van de dropdown menu">
 
 </details>
 
@@ -111,8 +111,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  - Hoe ik de webiste nog verder opmaak
+  - Hoe ik een dropdown menu maak
+  - De icontjes vinden voor de website
 
   ### Agenda voor meeting
   samen met je groepje opstellen
