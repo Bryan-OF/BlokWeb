@@ -1,6 +1,8 @@
 /**************/
 /* CSS REMEDY */
 /**************/
+
+/* dit reset de margin en padding van de browser*/
 *, *::after, *::before {
   box-sizing:border-box;  
 }
@@ -16,102 +18,155 @@ button, summary {
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
+
 :root {
-	/* startje */
-	--color-text:#FFFFFF;
-	--color-background:#eee;
-	--color-footer-text: #3084c4;
-	--color-text-nr2:#191B2A;
-	--color-nav: #14141c;
-	--color-main: #282c3c;
-	--color-build-guides: #444848;
-	--color-featured-build: #e86424;
-	--color-courosel: #b88c5c;
+	--color-text-white:#FFFFFF;
+	--color-background-white:#eee;
+	--color-house-style-lightBlue: #3084c4;
+	--color-text-black:#191B2A;
+	--color-background-black: #14141c;
+	--color-background-purple: #282c3c;
+	--color-background-grey: #444848;
+	--color-background-orange: #e86424;
+	--color-background-lightBrown: #b88c5c;
+	--color-text-lightGrey: rgba(255,255,255,0.6);
+
+	--bg-courosel:var(--color-background-lightBrown);
+	--bg-nav:var(--color-background-black);
+	--bg-main:var(--color-background-white);
+	--bg-section-first:var(--color-background-purple);
+	--bg-build-guides:var(--color-background-grey);
+
+	--h1-color:var(--color-text-white);
+	--h2-color:var(--color-text-white);
+
+	--first-section-p:var(--color-text-white);
+	--build-guides-p:var(--color-text-lightGrey);
+
+	--bg-button:var(--color-house-style-lightBlue);
+	--text-button:var(--color-text-white);
+
+	--bg-footer:var(--color-background-purple);
+	--h3-footer:var(--color-background-white);
 }
 
 
 
 
 
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
+/************/
+/* ALGEMEEN */
+/************/
 
 body {
   color:var(--color-text);
   background-color:var(--color-background);
   font-family:'Segoe UI', Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+button {
+	background-color: var(--bg-button);
+	color: var(--text-button);
 }
 
 
 
-
+/****************/
+/* Header */
+/****************/
 
 header {
-	background-color:var(--color-nav);
+	background-color:var(--bg-nav);
 }
 
-
-
-
-main {
-	background-color:var(--color-background);
-}
-
-
-
-
-section {
-	text-align: center;
-}
-
-
-
-
-
-section:nth-of-type(1){
-	background-color:var(--color-main);
-	padding: 2em;
-}
-
-
-
-
-
-section:nth-of-type(2){
-	background-color:var(--color-build-guides);
-}
-
-
-
-
-section:nth-of-type(3){
-	background-color:var(--color-background);
-}
-
-
-
-
-
-li {
+header ul {
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 
 
 
 
-section ul {
-	text-align: left;
-	background-color: var(--color-courosel);
+
+/****************/
+/* main */
+/****************/
+
+main {
+	background-color:var(--bg-main);
 }
 
 
 
 
 
-h3 {
+/****************/
+/* eerste section */
+/****************/
+
+section:nth-of-type(1) {
+	background-color:var(--bg-section-first);
+	text-align: center;
+	padding: 2em;
+}
+
+section:nth-of-type(1) h1 {
+	color:var(--h1-white);
+}
+
+section:nth-of-type(1) p {
+	color: var(--first-section-p);
+}
+
+
+
+
+
+/****************/
+/* Build Guides Section */
+/****************/
+
+section:nth-of-type(2){
+	background-color:var(--bg-build-guides);
+	padding: 2em;
+}
+
+section:nth-of-type(2) h2 {
+	color: var(--h2-color);
+}
+
+section:nth-of-type(2) p {
+	color: var(--build-guides-p);
+}
+
+
+
+
+
+
+/****************/
+/* Completed Builds */
+/****************/
+
+section:nth-of-type(3){
+	background-color:var();
+}
+
+section:nth-of-type(2) ul {
+	background-color: var(--color-courosel);
+	display: flex;
+	gap: 1em;
+	overflow-x: auto;
+}
+
+section:nth-of-type(2) li {
+	min-width: 18em;
+	
+}
+
+section:nth-of-type(2) h3 {
 	color: var(--color-text-nr2);
 	text-align: center;
 }
@@ -120,22 +175,18 @@ h3 {
 
 
 
+/****************/
+/* Footer */
+/****************/
+
 footer {
-	background-color:var(--color-main);
+	background-color:var(--bg-footer);
 }
-
-
-
-
 
 footer h3 {
-	color: var(--color-text);
+	color: var(--h3-footer);
 	text-align: left;
 }
-
-
-
-
 
 footer a {
 	color:var(--color-footer-text);

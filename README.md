@@ -32,7 +32,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 
-<details open>
+<details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
@@ -45,7 +45,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de tweede pagina (small screen):
   Op deze pagina kun je complete PC buils vinden.
   <img src="readme-images/pc_building.png" width="375px" alt="PC building page">
- 
+
 </details>
 
 
@@ -90,14 +90,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="readme-images/breakdown_shets-01.png" width="375px" alt="breakdown van de hele pagina">
+  ### De hele pagina: 
+  <img src="readme-images/breakdown_hele_pagina.png" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="breakdown_shets_Artboard 2.png" width="275px" alt="breakdown van een carrousel deel">
+  ### De drop-down menu: 
+  <img src="readme-images/dropdown_menu.png" width="275px" alt="breakdown van de dropdown menu">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="dropdown_menu" width="375px" alt="breakdown van de dropdown menu">
+  ### De Build guides carrousel: 
+  <img src="readme-images/breakdown_carrousel.png" width="375px" alt="breakdown van een carrousel gedeelte">
 
 </details>
 
@@ -111,28 +111,35 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  - Hoe ik de webiste nog verder opmaak
+
+  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+  - Of mijn HTML en CSS code goed is opgemaakt
+  <img src="readme-images/html_opmaak_code.PNG" width="275px">
+
   - Hoe ik een dropdown menu maak
   - De icontjes vinden voor de website
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Daan           | Jordi              | Lars                                                             | Zennay           |
+  | ---            | ---                | ---                                                              | ---              |
+  | dit bespreken  | en dit             | Hoe kan ik het beste mijn css structureren?                      | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | background-image werkt niet, waar ligt dat aan?                  | dit wil ik zeker |
+  | ...            | ...                | Is het gebruikelijk om af te wisselen in display grid en flex?   | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+- Elke kleur een huisstijl naam geven en het verwijzen naar waar het gebruikt worden. Als : —huisstyle-kleur(); en dan zoals —bg-nav:
+- Elke a hef moet in een aparte li
+- Elke section een naam geven in ccs
+- Div mag gebruikt worden voor styling
+- Gebruik Emet om snel te coderen
+- Mijn Css een logische volgorde geven
+- Afbeeldingen de juiste naam geven
 </details>
 
 
@@ -141,7 +148,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
