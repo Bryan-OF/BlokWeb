@@ -155,6 +155,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Deze week heb ik weinig tijd gehad om aan mijn website te werken
   - Hoe krijg ik de afbeeldingen goed op plaats?
   - Hoe krijg ik de nav goed aan het werk?
+  - hoe kan ik de linker gap weghalen bij mijn carrousel
 
   ### Agenda voor meeting
   samen met je groepje opstellen
