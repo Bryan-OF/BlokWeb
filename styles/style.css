@@ -4,11 +4,7 @@
 
 /* dit reset de margin en padding van de browser*/
 *, *::after, *::before {
-  box-sizing:border-box;  
-}
-
-button, summary {
-	cursor: pointer;
+  box-sizing: border-box;  
 }
 
 
@@ -20,34 +16,57 @@ button, summary {
 /*********************/
 
 :root {
-	--color-text-white:#FFFFFF;
-	--color-background-white:#eee;
-	--color-house-style-lightBlue: #3084c4;
-	--color-text-black:#191B2A;
-	--color-background-black: #14141c;
-	--color-background-purple: #282c3c;
-	--color-background-grey: #444848;
-	--color-background-orange: #e86424;
-	--color-background-lightBrown: #b88c5c;
-	--color-text-lightGrey: rgba(255,255,255,0.6);
+	/* Kleuren */
+	--color-huisstyle-black:#11131D;
+	--color-huisstyle-LighterBlack:#191B2A;
+	--color-huisstyle-darkPurple:#26293B;
+	--color-huisstyle-darkGrey:#3C3E42;
+	--color-huisstyle-lightBlue:#2C87C3;
+	--color-huisstyle-white:#FFFFFF;
+	--color-huisstyle-darkerWhite:#f4f4f3;
+	--color-huisstyle-lightBrown:#b18c5a;
+	--color-huisstyle-orange:#E26723;
+	--color-huisstyle-lightYellow:#FFE683;
+	--color-huisstyle-brown:#321607;
 
-	--bg-courosel:var(--color-background-lightBrown);
-	--bg-nav:var(--color-background-black);
-	--bg-main:var(--color-background-white);
-	--bg-section-first:var(--color-background-purple);
-	--bg-build-guides:var(--color-background-grey);
+	/* fonts */
+	--font-huisstyle: system-ui, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 
-	--h1-color:var(--color-text-white);
-	--h2-color:var(--color-text-white);
+	/* kleur main */
+	--bg-main: var(--color-huisstyle-white);
 
-	--first-section-p:var(--color-text-white);
-	--build-guides-p:var(--color-text-lightGrey);
+	/* kleur header */
+	--bg-nav: var(--color-huisstyle-black);
 
-	--bg-button:var(--color-house-style-lightBlue);
-	--text-button:var(--color-text-white);
+	/* kleur first section */
+	--bg-firstSection: var(--color-huisstyle-darkPurple);
+	--color-firstSection-h1: var(--color-huisstyle-white);
+	--color-firstSection-p: var(--color-huisstyle-white);
+	--bg-firstSection-a: var(--color-huisstyle-lightBlue);
+	--color-firstSection-a: var(--color-huisstyle-white);
 
-	--bg-footer:var(--color-background-purple);
-	--h3-footer:var(--color-background-white);
+	/* Build Guids */
+	--bg-buildGuides: var(--color-huisstyle-darkGrey);
+	--color-buildGuides-h2: var(--color-huisstyle-white);
+	--color-build-guides-p: var(--color-huisstyle-white);
+	--bg-buildGuides-courosel: var(--color-huisstyle-lightBrownn);
+	--color-buildGuides-h3: var(--color-huisstyle-white);
+	--bg-buildGuides-a: var(--color-huisstyle-lightBlue);
+	--color-buildGuides-a: var(--color-huisstyle-white);
+
+	/* Completed Builds */
+	--bg-completedBuilds: var(--color-huisstyle-darkerWhite);
+	--bg-featuredBuilds: var(--color-huisstyle-orange);
+
+	--bg-completedBuilds-a: var(--color-huisstyle-lightBlue);
+	--color-completedBuilds-a: var(--color-huisstyle-white);
+
+	/* footer */
+	--bg-footer: var(--color-huisstyle-darkPurple);
+	--color-footer-h3: var(--color-huisstyle-white);
+	--color-footer-h4: var(--color-huisstyle-white);
+	--color-footer-a: var(--color-huisstyle-lightBlue);
+	--color-footer-p: var(--color-huisstyle-white);
 }
 
 
@@ -59,16 +78,17 @@ button, summary {
 /************/
 
 body {
-  color:var(--color-text);
-  background-color:var(--color-background);
-  font-family:'Segoe UI', Arial, Helvetica, sans-serif;
-  margin: 0;
+	color: var(--color-text);
+	background-color: var(--color-background);
+	font-family: var(--font-huisstyle);
+	margin: 0;
 }
 
-button {
-	background-color: var(--bg-button);
-	color: var(--text-button);
+button, summary {
+	cursor: pointer;
 }
+
+
 
 
 
@@ -76,14 +96,27 @@ button {
 /* Header */
 /****************/
 
+/* Soure: CodePen Home FED 22/23 - Flexbox - Oefening 1 - uitwerking - sommetje 11 Link: https://codepen.io/shooft/pen/VwXXNea?editors=1100 */
+
 header {
-	background-color:var(--bg-nav);
+	background-color: var(--bg-nav);
 }
 
 header ul {
 	margin: 0;
-	padding: 0;
+	padding: 1em;
 	list-style: none;
+	display: flex;
+	gap: 1em;
+}
+
+header ul li:first-of-type {
+	margin-right: auto;
+}
+
+header li img {
+	width: 2em;
+	margin-right:.125em;
 }
 
 
@@ -95,7 +128,7 @@ header ul {
 /****************/
 
 main {
-	background-color:var(--bg-main);
+	background-color: var(--bg-main);
 }
 
 
@@ -106,18 +139,42 @@ main {
 /* eerste section */
 /****************/
 
+/* remove line under link with text-decoration: none; Link: https://stackoverflow.com/questions/2789703/remove-blue-underline-from-link */
+
+/* Hoe pas je de gap tussen de icon */
+
 section:nth-of-type(1) {
-	background-color:var(--bg-section-first);
+	background-color: var(--bg-firstSection);
 	text-align: center;
-	padding: 2em;
+	padding: 2em 1em 3em 1em;
 }
 
 section:nth-of-type(1) h1 {
-	color:var(--h1-white);
+	color: var(--color-firstSection-h1);
+	font-size: 1.3em;
+	text-transform: uppercase;
 }
 
 section:nth-of-type(1) p {
-	color: var(--first-section-p);
+	color: var(--color-firstSection-p);
+	padding-bottom: 1.5em;
+}
+
+section:nth-of-type(1) a {
+	background-color: var(--bg-firstSection-a);
+	font-family: var(--font-huisstyle);
+	color: var(--color-firstSection-a);
+	padding: .5em 1em .5em 1em;
+	font-size: 1.2em;
+	border-radius: .3em;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+section:nth-of-type(1) a img {
+	width: 1em;
+	height: 1em;
 }
 
 
@@ -128,17 +185,26 @@ section:nth-of-type(1) p {
 /* Build Guides Section */
 /****************/
 
+/* text-transform: capitalize; Maakt elke eerste letter cappital  Link: https://love2dev.com/blog/css-text-transform/#:~:text=The%20CSS%20text%2Dtransform%20Property,-The%20CSS%20text&text=uppercase%3A%20makes%20all%20of%20the,exactly%20as%20it%20was%20entered */
+
 section:nth-of-type(2){
-	background-color:var(--bg-build-guides);
-	padding: 2em;
+	background-color: var(--bg-buildGuides);
+	padding: 1em 1em 1em 1em;
 }
 
 section:nth-of-type(2) h2 {
-	color: var(--h2-color);
+	color: var(--color-buildGuides-h2);
+	text-align: center;
+	font-size: 2em;
+	text-transform: capitalize;
 }
 
 section:nth-of-type(2) p {
-	color: var(--build-guides-p);
+	color: var(--color-build-guides-p);
+	opacity: 0.6;
+	font-size: 1.05em;
+	margin: 0 .3em 0 .3em;
+	text-align: center;
 }
 
 section:nth-of-type(2) ul {
@@ -147,19 +213,33 @@ section:nth-of-type(2) ul {
 	overflow-x: auto;
 }
 
-section:nth-of-type(2) li {
-	background-color: var(--bg-courosel);
+section:nth-of-type(2) ul li {
+	color: var(--bg-buildGuides-courosel);
 	min-width: 18em;
 	padding: 1em;
 	list-style: none;
 }
 
 section:nth-of-type(2) h3 {
-	color: var(--h2-color);
+	color: var(--color-buildGuides-h3);
 }
 
+section:nth-of-type(2) a {
+	background-color: var(--bg-buildGuides-a);
+	font-family: var(--font-huisstyle);
+	color: var(--color-buildGuides-a);
+	padding: .5em 1em .5em 1em;
+	font-size: 1.2em;
+	border-radius: .3em;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: capitalize;
+}
 
-
+section:nth-of-type(2) a img {
+	width: 1em;
+	height: 1em;
+}
 
 
 /****************/
@@ -167,7 +247,7 @@ section:nth-of-type(2) h3 {
 /****************/
 
 section:nth-of-type(3){
-	background-color:var();
+	background-color: var(--bg-completedBuilds);
 	padding: 2em;
 }
 
@@ -189,26 +269,64 @@ section:nth-of-type(3) li {
 	list-style: none;
 }
 
+section:nth-of-type(3) a {
+	background-color: var(--bg-completedBuilds-a);
+	font-family: var(--font-huisstyle);
+	color: var(--color-completedBuilds-a);
+	padding: .5em 1em .5em 1em;
+	font-size: 1.2em;
+	border-radius: .3em;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+section:nth-of-type(3) a img {
+	width: 1em;
+	height: 1em;
+}
 
 /****************/
 /* Footer */
 /****************/
 
 footer {
-	background-color:var(--bg-footer);
+	background-color: var(--bg-footer);
+	padding: 2em;
+	font-size: 1.1em;
 }
 
 footer h3 {
-	color: var(--h3-footer);
+	color: var(--color-footer-h3);
 	text-align: left;
 }
 
-footer a {
-	color:var(--color-footer-text);
-	padding: 0em;
+footer h4 {
+	color: var(--color-footer-h3);
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 1.5;
 }
 
-footer li {
-	padding: 0em;
+footer ul {
+	margin-left: -2.3em;
+}
+
+footer ul li {
 	list-style: none;
+}
+
+footer ul li a {
+	padding: 0 0 0 0;
+	list-style: none;
+	color: var(--color-footer-a);
+	text-decoration: none;
+	font-size: .9em;
+}
+
+footer p {
+	color: var(--color-footer-p);
+	font-size: .7em;
+	text-align: center;
 }

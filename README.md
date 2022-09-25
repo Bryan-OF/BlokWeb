@@ -148,7 +148,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details open>
+<details>
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
@@ -184,7 +184,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 2/2 (week 4)
 
-<details>
+<details open>
   <summary>uitwerken na test in 8e werkgroep</summary>
 
   ### Bevindingen
@@ -221,7 +221,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 3 (week 4)
 
-<details>
+<details open>
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
@@ -284,8 +284,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. CSS lay-out: Sanne 't Hooft
+  2. HTML lay-out: Sanne 't Hooft en
+  3. li klikbaar: Sanne 't Hooft
+  4. center li: Sanne 't Hooft
+  5. h4 line: Sanne 't Hooft
+  6. code (*, *::after, *::before): Sanne 't Hooft
+  7. root lay-out:  Sanne 't Hooft
+  8. nav lay-out: Soure: CodePen Home FED 22/23 - Flexbox - Oefening 1 - uitwerking - sommetje 11 Link: https://codepen.io/shooft/pen/VwXXNea?editors=1100
+  9. remove line under link - code: text-decoration: none; Link: https://stackoverflow.com/questions/2789703/remove-blue-underline-from-link
+  10. Maakt elke eerste letter cappital Code: text-transform: capitalize; Link: https://love2dev.com/blog/css-text-transform/#:~:text=The%20CSS%20text%2Dtransform%20Property,-The%20CSS%20text&text=uppercase%3A%20makes%20all%20of%20the,exactly%20as%20it%20was%20entered
+  11. 
 
 </details>
