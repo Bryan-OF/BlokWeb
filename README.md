@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Dit is de Home-pagina van PC-partpicker
-  <img src="readme-images/home_page.png" width="375px" alt="Home page">
+  <img src="readme-images/home_page.png" width="275px" text-align="left" alt="Home page">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Op deze pagina kun je complete PC buils vinden.
-  <img src="readme-images/pc_building.png" width="375px" alt="PC building page">
+  <img src="readme-images/pc_building.png" width="275px" position="absolute" float="left" alt="PC building page">
 
 </details>
 
@@ -138,11 +138,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | Hoe ik een dropdown menu maak                                                 | dit als er tijd is | dit als er tijd is | Is het gebruikelijk om af te wisselen in display | dit wil ik zeker |
   | De icontjes vinden voor de website                                            | ...                | ...                | grid en flex?                                    | ...              |
 
-  | Bryan          | Daan               | Jordi        | student 4        | student 4        |
-  | ---            | ---                | ---          | ---              | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              | ...              |
+  | student 4                           | student 4          | student 4    | student 4        | student 4        |
+  | ---                                 | ---                | ---          | ---              | ---              |
+  | dit bespreken                       | en dit             | en ik dit    | en dan ik dat    | en dan ik dat    |
+  | en dat ook nog                      | dit als er tijd is | nog een punt | dit wil ik zeker | dit wil ik zeker |
+  | ...                                 | ...                | ...          | ...              | ...              |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
