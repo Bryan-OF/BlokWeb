@@ -120,26 +120,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   HTML
   <p align="left"><img src="readme-images/voortgang1_week2/html_p1_week2.png" width="275px" alt="HTML van website"></p>
-  <p align="right"><img src="readme-images/voortgang1_week2/html_p2_week2.png" width="275px" alt="HTML van website"></p>
+  <p align="left"><img src="readme-images/voortgang1_week2/html_p2_week2.png" width="275px" alt="HTML van website"></p>
 
   CSS
   <p align="left"><img src="readme-images/voortgang1_week2/css_p1_week2.png"  width="275px" alt="CSS van website"></p>
-  <p align="right"><img src="readme-images/voortgang1_week2/css_p2_week2.png" width="275px" alt="CSS van website"></p>
+  <p align="left"><img src="readme-images/voortgang1_week2/css_p2_week2.png" width="275px" alt="CSS van website"></p>
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Bryan                                                                         | Daan               | Jordi              | Lars                                             | Zennay           |
-  | Of mijn HTML en CSS code wel goed opgemaakt is                                | ---                | ---                | Hoe kan ik het beste mijn css structureren?      | ---              |
-  | <img src="readme-images/voortgang1_week2/html_opmaak_code.PNG" width="75px">  | en dit dat         | en dit dat         | background-image werkt niet, waar ligt dat aan?  | en dan ik dat    |
-  | Hoe ik een dropdown menu maak                                                 | dit als er tijd is | dit als er tijd is | Is het gebruikelijk om af te wisselen in display | dit wil ik zeker |
-  | De icontjes vinden voor de website                                            | ...                | ...                | grid en flex?                                    | ...              |
-
-  | student 4                           | student 4          | student 4    | student 4        | student 4        |
-  | ---                                 | ---                | ---          | ---              | ---              |
-  | dit bespreken                       | en dit             | en ik dit    | en dan ik dat    | en dan ik dat    |
-  | en dat ook nog                      | dit als er tijd is | nog een punt | dit wil ik zeker | dit wil ik zeker |
-  | ...                                 | ...                | ...          | ...              | ...              |
+  | Bryan                                          | Daan               | Jordi        | Lars                                                           | Zennay           |
+  | ---                                            | ---                | ---          | ---                                                            | ---              |
+  | Of mijn HTML en CSS code wel goed opgemaakt is | en dit             | en ik dit    | Hoe kan ik het beste mijn css structureren?                    | en dan ik dat    |
+  | Hoe maak ik een dropdown menu                  | dit als er tijd is | nog een punt | background-image werkt niet, waar ligt dat aan?                | dit wil ik zeker |
+  | De icontjes vinden voor de website             | ...                | ...          | Is het gebruikelijk om af te wisselen in display grid en flex? | ...              |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -240,7 +234,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   samen met je groepje opstellen
 
   | student 1      | student 2          | student 3    | student 4        |
-  |                | ---                | ---          | ---              |
+  | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
