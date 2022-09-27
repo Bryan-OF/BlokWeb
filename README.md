@@ -138,6 +138,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | Hoe ik een dropdown menu maak                                                 | dit als er tijd is | dit als er tijd is | Is het gebruikelijk om af te wisselen in display | dit wil ik zeker |
   | De icontjes vinden voor de website                                            | ...                | ...                | grid en flex?                                    | ...              |
 
+  | Bryan          | Daan               | Jordi        | student 4        | student 4        |
+  | ---            | ---                | ---          | ---              | ---              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              | ...              |
+
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
