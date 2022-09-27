@@ -36,19 +36,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  Dit is de website die ik ga namaken: https://pcpartpicker.com
+  Dit is de website die ik ga namaken (PC part picker)[https://pcpartpicker.com]
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Dit is de Home-pagina van PC-partpicker
-  <p align="left">
-  <img src="readme-images/home_page.png" width="275px" alt="Home page">
-  </p>
+  <p align="left"><img src="readme-images/home_page.png" width="275px" alt="Home page"></p>
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Op deze pagina kun je complete PC buils vinden.
-  <img src="readme-images/pc_building.png" width="200px" alt="PC building page">
+  <p align="left"><img src="readme-images/pc_building.png" width="275px" alt="PC building page"></p>
 
 </details>
+
+
 
 
 
@@ -58,32 +58,28 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-
   Lijst met je bevindingen die in de test naar voren kwamen:
-  - Tekst is gemakkelijk te lezen in alle kleurenblindheid
-  - Advertentie staan goed apart
-  - Darkmode button verdwijnt en wordt verplaatst naar profiel. Dit zou beter verplaatst worden naar instellingen
+  - Tekst is gemakkelijk te lezen in alle kleurenblindheid.
+  - Advertentie staan goed apart.
+  - Darkmode button verdwijnt en wordt verplaatst naar profiel. Dit zou beter verplaatst worden naar instellingen.
 
   #### Screenreader
-
   - Er staan veel onzichtbare html text dat niet te zien is maar wel word opgelezen.
 
   #### Muis en Toetsenbord
-
   - Er staan veel onzichtbare html text dat niet te zien is maar wel word opgelezen.
-  - Headings hebben niet de juiste namen
+  - Headings hebben niet de juiste namen.
 
   #### Motoriek (shocks, elastiekjes)
-
   - De knoppen zitten te dicht op elkaar, waardoor het bijna onmogelijk is om de gewenste knop in te drukken.
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  
-  - Blurred vision: text was niet goed te lezen
-  - Achromatopsia: de gekleurde hover knoppen zijn niet te zien
-  - Dark mode en light zouden een paar veranderingen kunnen krijgen om ze beter te onderscheiden
-
+  - Blurred vision: text was niet goed te lezen.
+  - Achromatopsia: de gekleurde hover knoppen zijn niet te zien.
+  - Dark mode en light zouden een paar veranderingen kunnen krijgen om ze beter te onderscheiden.
 </details>
+
+
 
 
 
@@ -92,15 +88,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
-  ### De hele pagina: 
-  <img src="readme-images/breakdown_hele_pagina.png" width="375px" alt="breakdown van de hele pagina">
+  ### De hele pagina:
+  <p align="left"><img src="readme-images/breakdown_hele_pagina.png" width="275px" alt="breakdown van de hele pagina"></p>
 
-  ### De drop-down menu: 
-  <img src="readme-images/dropdown_menu.png" width="275px" alt="breakdown van de dropdown menu">
+  ### De drop-down menu:
+  <p align="left"><img src="readme-images/dropdown_menu.png" width="275px" alt="breakdown van de dropdown menu"></p>
 
-  ### De Build guides carrousel: 
-  <img src="readme-images/breakdown_carrousel.png" width="375px" alt="breakdown van een carrousel gedeelte">
-
+  ### De Build guides carrousel:
+  <p align="left"><img src="readme-images/breakdown_carrousel.png" width="275px" alt="breakdown van een carrousel gedeelte"></p>
 </details>
 
 
@@ -116,7 +111,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
   Dit is mijn eerste opmaak van mijn website.
-  <img src="readme-images/voortgang1_week2/eerste_webpagina_opmaak.png" width="75px">
+  <p align="left"><img src="readme-images/voortgang1_week2/eerste_webpagina_opmaak.png" width="275px" alt="eerste opmaak van mijn website."></p>
 
   Deze week had ik het een beetje druk dus heb ik alleen gemaakt waar ik kon. 
   Ik ben ook html en css een beetje vergeten omdat ik het het laatste half jaar niet veel gedaan heb.
@@ -124,12 +119,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Dit is mijn voortgang van mijn code tot nu toe.
 
   HTML
-  <img src="readme-images/voortgang1_week2/html_p1_week2.png" width="75px">
-  <img src="readme-images/voortgang1_week2/html_p2_week2.png" width="75px">
+  <p align="left"><img src="readme-images/voortgang1_week2/html_p1_week2.png" width="275px" alt="HTML van website"></p>
+  <p align="right"><img src="readme-images/voortgang1_week2/html_p2_week2.png" width="275px" alt="HTML van website"></p>
 
   CSS
-  <img src="readme-images/voortgang1_week2/css_p1_week2.png" width="75px">
-  <img src="readme-images/voortgang1_week2/css_p2_week2.png" width="75px">
+  <p align="left"><img src="readme-images/voortgang1_week2/css_p1_week2.png"  width="275px" alt="CSS van website"></p>
+  <p align="right"><img src="readme-images/voortgang1_week2/css_p2_week2.png" width="275px" alt="CSS van website"></p>
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -304,9 +299,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   5. h4 line: Sanne 't Hooft
   6. code (*, *::after, *::before): Sanne 't Hooft
   7. root lay-out:  Sanne 't Hooft
-  8. nav lay-out: Soure: CodePen Home FED 22/23 - Flexbox - Oefening 1 - uitwerking - sommetje 11 Link: https://codepen.io/shooft/pen/VwXXNea?editors=1100
-  9. remove line under link - code: text-decoration: none; Link: https://stackoverflow.com/questions/2789703/remove-blue-underline-from-link
-  10. Maakt elke eerste letter cappital Code: text-transform: capitalize; Link: https://love2dev.com/blog/css-text-transform/#:~:text=The%20CSS%20text%2Dtransform%20Property,-The%20CSS%20text&text=uppercase%3A%20makes%20all%20of%20the,exactly%20as%20it%20was%20entered
-  11. 
+  8. [nav lay-out: Soure: CodePen Home FED 22/23 - Flexbox - Oefening 1 - uitwerking - sommetje 11](https://codepen.io/shooft/pen/VwXXNea?editors=1100)
+  9. [remove line under link - code: text-decoration: none;](https://stackoverflow.com/questions/2789703/remove-blue-underline-from-link)
+  10. [Maakt elke eerste letter cappital Code: text-transform: capitalize;](https://love2dev.com/blog/css-text-transform/#:~:text=The%20CSS%20text%2Dtransform%20Property,-The%20CSS%20text&text=uppercase%3A%20makes%20all%20of%20the,exactly%20as%20it%20was%20entered)
+  11. [Github image align left](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-file-on-github)
 
 </details>
