@@ -40,7 +40,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Dit is de Home-pagina van PC-partpicker
-  <p align="center">
+  <p align="left">
   <img src="readme-images/home_page.png" width="275px" alt="Home page">
   </p>
 
