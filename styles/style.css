@@ -145,17 +145,21 @@ header nav.open {
 /*********************/
 
 /* hamburger menu met bewegend strepen link:https://codepen.io/shooft/pen/dymRMBZ */
-header li:nth-of-type(5) button {
+header li:nth-of-type(6) button {
 	/* grid om de 3 spans in het midden van de button te positioneren */
 	display:grid;
 	place-items:center;
 
 	/* position:relative;
 	z-index:100; */
+	width:3em;
+	height:3em;
+	padding:0;
+	background-color: red;
 }
   
 /* alledrie de streepjes */
-header li:nth-of-type(5) button span {
+header li:nth-of-type(6) button span {
 	/* alledrie de spans in de eerste kolom en rij */
 	/* ze staan dan over elkaar heen*/
 	grid-row-start:1;
@@ -163,27 +167,23 @@ header li:nth-of-type(5) button span {
 	
 	/* grootte en kleur van de streepjes */
 	width: 1em;
-	height: .02em;
+	height: .2em;
 	
 	/* transities duren .5s */
 	transition-duration:.5s;
+	background-color: white;
 }
 
 /* het eerste streepje */
-header li:nth-of-type(5) button span:nth-of-type(1) {
+header li:nth-of-type(6) button span:nth-of-type(1) {
 	/* met transform: */
 	/* .4em omhoog */
 	/* developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateY */
 	transform:translateY(-.4em);
 }
-
-/* het tweede streepje */
-header li:nth-of-type(5) button span:nth-of-type(2) {
-	/* staat al op de goede plek */
-}
   
 /* het derde streepje */
-header li:nth-of-type(5) button span:nth-of-type(3) {
+header li:nth-of-type(6) button span:nth-of-type(3) {
 	/* met transform: */
 	/* .4em omlaag */
 	transform:translateY(.4em);
@@ -198,7 +198,7 @@ header li:nth-of-type(5) button span:nth-of-type(3) {
 /***********************************************************/
 
 /* het eerste streepje */
-header li:nth-of-type(5) button.menuOpen span:nth-of-type(1) {
+header li:nth-of-type(6) button.menuOpen span:nth-of-type(1) {
 	/* met transform: */
 	/* 1: 45 graden draaien met de klok mee */
 	/* developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate */
@@ -208,13 +208,13 @@ header li:nth-of-type(5) button.menuOpen span:nth-of-type(1) {
 }
   
 /* het tweede streepje */
-header li:nth-of-type(5) button.menuOpen span:nth-of-type(2) {
+header li:nth-of-type(6) button.menuOpen span:nth-of-type(2) {
 	/* met opacity helemaal doorzichtig maken */
 	opacity:0;
 }
   
 /* het derde streepje */
-header li:nth-of-type(5) button.menuOpen span:nth-of-type(3) {
+header li:nth-of-type(6) button.menuOpen span:nth-of-type(3) {
 	/* met transform: */
 	/* 1. 45 graden draaien tegen de klok in */
 	/* 2. 25% langer maken */
@@ -262,19 +262,20 @@ section:nth-of-type(1) p {
 	padding-bottom: 1.5em;
 }
 
-section:nth-of-type(1) a {
-	background-color: var(--bg-firstSection-a);
+section:nth-of-type(1) button {
+	background-color: var(--bg-buildGuides-a);
 	font-family: var(--font-huisstyle);
-	color: var(--color-firstSection-a);
+	color: var(--color-buildGuides-a);
 	padding: .5em 1em .5em 1em;
 	font-size: 1.2em;
 	border-radius: .3em;
+	border: 0;
 	font-weight: 500;
 	text-decoration: none;
 	text-transform: capitalize;
 }
 
-section:nth-of-type(1) a img {
+section:nth-of-type(1) button img {
 	width: 1em;
 	height: 1em;
 }
@@ -326,19 +327,20 @@ section:nth-of-type(2) h3 {
 	color: var(--color-buildGuides-h3);
 }
 
-section:nth-of-type(2) a {
+section:nth-of-type(2) button {
 	background-color: var(--bg-buildGuides-a);
 	font-family: var(--font-huisstyle);
 	color: var(--color-buildGuides-a);
 	padding: .5em 1em .5em 1em;
 	font-size: 1.2em;
 	border-radius: .3em;
+	border: 0;
 	font-weight: 500;
 	text-decoration: none;
 	text-transform: capitalize;
 }
 
-section:nth-of-type(2) a img {
+section:nth-of-type(2) button img {
 	width: 1em;
 	height: 1em;
 }
@@ -371,19 +373,20 @@ section:nth-of-type(3) li {
 	list-style: none;
 }
 
-section:nth-of-type(3) a {
-	background-color: var(--bg-completedBuilds-a);
+section:nth-of-type(3) button {
+	background-color: var(--bg-buildGuides-a);
 	font-family: var(--font-huisstyle);
-	color: var(--color-completedBuilds-a);
+	color: var(--color-buildGuides-a);
 	padding: .5em 1em .5em 1em;
 	font-size: 1.2em;
 	border-radius: .3em;
+	border: 0;
 	font-weight: 500;
 	text-decoration: none;
 	text-transform: capitalize;
 }
 
-section:nth-of-type(3) a img {
+section:nth-of-type(3) button img {
 	width: 1em;
 	height: 1em;
 }
