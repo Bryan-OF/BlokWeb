@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Dit is de Home-pagina van PC-partpicker
-  <img align="right" width="200px" src="readme-images/home_page.png" alt="Home page">
+  <img src="readme-images/home_page.png" align="right" width="200px" alt="Home page">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Op deze pagina kun je complete PC buils vinden.
-  <img align="right" width="200px" src="readme-images/pc_building.png" alt="PC building page">
+  <img src="readme-images/pc_building.png" align="right" width="200px" alt="PC building page">
 
 </details>
 
