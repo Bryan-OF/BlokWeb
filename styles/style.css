@@ -47,17 +47,21 @@
 	--bg-firstSection: var(--color-huisstyle-darkPurple);
 	--color-firstSection-h1: var(--color-huisstyle-white);
 	--color-firstSection-p: var(--color-huisstyle-white);
-	--bg-firstSection-a: var(--color-huisstyle-lightBlue);
-	--color-firstSection-a: var(--color-huisstyle-white);
+	--bg-firstSection-button: var(--color-huisstyle-lightBlue);
+	--color-firstSection-button: var(--color-huisstyle-white);
 
 	/* Build Guids */
 	--bg-buildGuides: var(--color-huisstyle-darkGrey);
 	--color-buildGuides-h2: var(--color-huisstyle-white);
 	--color-build-guides-p: var(--color-huisstyle-white);
-	--bg-buildGuides-courosel: var(--color-huisstyle-lightBrownn);
+	
+	--bg-buildGuides-courosel: var(--color-huisstyle-lightBrown);
 	--color-buildGuides-h3: var(--color-huisstyle-white);
-	--bg-buildGuides-a: var(--color-huisstyle-lightBlue);
-	--color-buildGuides-a: var(--color-huisstyle-white);
+	--color-buildGuides-li-p: var(--color-huisstyle-LighterBlack);
+	--color-buildGuides-li-p-lastTwo: var(--color-huisstyle-white);
+
+	--bg-buildGuides-button: var(--color-huisstyle-lightBlue);
+	--color-buildGuides-button: var(--color-huisstyle-white);
 
 	/* Completed Builds */
 	--bg-completedBuilds: var(--color-huisstyle-darkerWhite);
@@ -93,7 +97,9 @@ button, summary {
 	cursor: pointer;
 }
 
-
+button:not(disabled) {
+	cursor:pointer;
+  }
 
 
 
@@ -102,9 +108,13 @@ button, summary {
 /**********/
 
 /* Soure: CodePen Home FED 22/23 - Flexbox - Oefening 1 - uitwerking - sommetje 11 Link: https://codepen.io/shooft/pen/VwXXNea?editors=1100 */
-
+/* sticky header Source: FED 22/23 - Flexbox - Oefening 2 - uitwerking link: https://codepen.io/shooft/pen/zYWWXmG */
 header {
 	background-color: var(--bg-nav);
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 10;
 }
 
 header ul {
@@ -115,6 +125,7 @@ header ul {
 	gap: 1.7em;
 	display:row;
 	place-items:center;
+	
 }
 
 header ul li:first-of-type {
@@ -272,26 +283,29 @@ section:nth-of-type(1) h1 {
 
 section:nth-of-type(1) p {
 	color: var(--color-firstSection-p);
-	padding-bottom: 1.5em;
+	padding-bottom: 1.1em;
 	line-height: 1.5em;
 }
 
 section:nth-of-type(1) button {
-	background-color: var(--bg-buildGuides-a);
+	background-color: var(--bg-firstSection-button);
 	font-family: var(--font-huisstyle);
-	color: var(--color-buildGuides-a);
-	padding: .5em 1em .5em 1em;
+	color: var(--color-firstSection-button);
+	padding: .5em .9em .5em .9em;
 	font-size: 1.2em;
 	border-radius: .3em;
 	border: 0;
-	font-weight: 500;
+	font-weight: 600;
 	text-decoration: none;
 	text-transform: capitalize;
 }
 
 section:nth-of-type(1) button img {
-	width: 1em;
-	height: 1em;
+	max-width: 1em;
+	height: .9em;
+	
+	display: inline-block;
+	margin-right: .5em;
 }
 
 
@@ -306,12 +320,12 @@ section:nth-of-type(1) button img {
 
 section:nth-of-type(2){
 	background-color: var(--bg-buildGuides);
-	padding: 1em 1em 1em 1em;
+	padding: 1.5em 1em 1em 1em;
+	text-align: center;
 }
 
 section:nth-of-type(2) h2 {
 	color: var(--color-buildGuides-h2);
-	text-align: center;
 	font-size: 2em;
 	text-transform: capitalize;
 }
@@ -319,32 +333,59 @@ section:nth-of-type(2) h2 {
 section:nth-of-type(2) p {
 	color: var(--color-build-guides-p);
 	opacity: 0.6;
-	font-size: 1.05em;
-	margin: 0 .3em 0 .3em;
-	text-align: center;
+	font-size: 1em;
+	margin: -.5em .3em 0 .3em;
+	line-height: 1.5em;
 }
 
 section:nth-of-type(2) ul {
 	display: flex;
 	gap: 1em;
 	overflow-x: auto;
+	padding-left: 0;
 }
 
-section:nth-of-type(2) ul li {
-	color: var(--bg-buildGuides-courosel);
+section:nth-of-type(2) li {
+	background-color: var(--bg-buildGuides-courosel);
 	min-width: 18em;
-	padding: 1em;
+	padding: 1.5em;
 	list-style: none;
 }
 
 section:nth-of-type(2) h3 {
 	color: var(--color-buildGuides-h3);
+	margin-top: 0;
+	text-align: left;
+}
+
+/* text-contrast change link: https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/contrast */
+section:nth-of-type(2) li p {
+	color: var(--color-buildGuides-li-p);
+	font-size: .7em;
+	font-weight: 700;
+	margin: 0em .3em 0 0;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+section:nth-of-type(2) li p:nth-of-type(4) {
+	color: var(--color-buildGuides-li-p-lastTwo);
+	float: left;
+	margin-top: 2em;
+	font-size: 1em;
+}
+
+section:nth-of-type(2) li p:nth-of-type(5) {
+	color: var(--color-buildGuides-li-p-lastTwo);
+	float: right;
+	margin-top: 2em;
+	font-size: 1em;
 }
 
 section:nth-of-type(2) button {
-	background-color: var(--bg-buildGuides-a);
+	background-color: var(--bg-buildGuides-button);
 	font-family: var(--font-huisstyle);
-	color: var(--color-buildGuides-a);
+	color: var(--color-buildGuides-button);
 	padding: .5em 1em .5em 1em;
 	font-size: 1.2em;
 	border-radius: .3em;
@@ -359,6 +400,20 @@ section:nth-of-type(2) button img {
 	height: 1em;
 }
 
+/* Sanne of student assistent vragen */
+section:nth-of-type(2) ul li div img {
+	top: 0;
+	width: 4em;
+	min-height: 4em;
+	display: grid;
+	grid-template-columns: 2 1;
+    grid-template-rows: 1 1;
+    grid-gap: 1em;
+}
+
+section:nth-of-type(2) div {
+	background-color: #f4f4f3;
+}
 
 /****************/
 /* Completed Builds */
@@ -388,9 +443,9 @@ section:nth-of-type(3) li {
 }
 
 section:nth-of-type(3) button {
-	background-color: var(--bg-buildGuides-a);
+	background-color: var(--bg-buildGuides-button);
 	font-family: var(--font-huisstyle);
-	color: var(--color-buildGuides-a);
+	color: var(--color-buildGuides-button);
 	padding: .5em 1em .5em 1em;
 	font-size: 1.2em;
 	border-radius: .3em;
@@ -404,6 +459,10 @@ section:nth-of-type(3) button img {
 	width: 1em;
 	height: 1em;
 }
+
+
+
+
 
 /****************/
 /* Footer */

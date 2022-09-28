@@ -243,7 +243,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-  Deze week had ik moeite om het dropdown menu aan de praat te krijgen. Uiteindelijk lukte het met behulp van de tutorials op DLO.
+  Deze week had ik moeite om het dropdown menu aan de praat te krijgen. 
   Ook was het deze week moeilijk om tijd vrij te maken om aan de website te werken.
 
   Dit is mijn voortgang van mijn code tot nu toe.
@@ -328,4 +328,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   9. [remove line under link - code: text-decoration: none;](https://stackoverflow.com/questions/2789703/remove-blue-underline-from-link)
   10. [Maakt elke eerste letter cappital Code: text-transform: capitalize;](https://love2dev.com/blog/css-text-transform/#:~:text=The%20CSS%20text%2Dtransform%20Property,-The%20CSS%20text&text=uppercase%3A%20makes%20all%20of%20the,exactly%20as%20it%20was%20entered)
   11. [Github image align left](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-file-on-github)
+  12. [Sticky header Source: FED 22/23 - Flexbox - Oefening 2 - uitwerking](https://codepen.io/shooft/pen/zYWWXmG)
+  13. [Text-contrast change](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/contrast)
 </details>
