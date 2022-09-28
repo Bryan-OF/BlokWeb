@@ -36,8 +36,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  Dit is de website die ik ga namaken (PC part picker)[https://pcpartpicker.com]
-
+  Dit is de website die ik ga namaken [PC part picker](https://pcpartpicker.com)
+)
   #### Screenshot(s) van de eerste pagina (small screen): 
   Dit is de Home-pagina van PC-partpicker
   <p align="left"><img src="readme-images/home_page.png" width="275px" alt="Home page"></p>
@@ -45,7 +45,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de tweede pagina (small screen):
   Op deze pagina kun je complete PC buils vinden.
   <p align="left"><img src="readme-images/pc_building.png" width="275px" alt="PC building page"></p>
-
 </details>
 
 
@@ -157,27 +156,42 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  - Deze week heb ik weinig tijd gehad om aan mijn website te werken
-  - Hoe style je met div?
+  Dit is de opmaak van mijn website voor de tweede voortgangs gesprek.
+  <p align="left"><img src="readme-images/voortgang2_week3/tweede_webpagina_opmaak.png" width="275px" alt="website versie 2"></p>
+
+  Deze week heb ik weinig tijd gehad om aan mijn website te werken, maar ik ga proberen volgende week meer tijd aan mijn website te besteden.
+  Wat ik tot nu toe heb kunnen doen is alle inhoud in de pagina krijgen en deze stylen met css.
+
+  Dit is mijn voortgang van mijn code tot nu toe.
+
+  HTML
+  <p align="left"><img src="readme-images/voortgang2_week3/html_p1_week3.png" width="275px" alt="HTML van website"></p>
+  <p align="left"><img src="readme-images/voortgang2_week3/html_p2_week3.png" width="275px" alt="HTML van website"></p>
+  <p align="left"><img src="readme-images/voortgang2_week3/html_p3_week3.png" width="275px" alt="HTML van website"></p>
+
+  CSS
+  <p align="left"><img src="readme-images/voortgang2_week3/css_p1_week3"  width="275px" alt="CSS van website"></p>
+  <p align="left"><img src="readme-images/voortgang2_week3/css_p2_week3" width="275px" alt="CSS van website"></p>
+  <p align="left"><img src="readme-images/voortgang2_week3/css_p3_week3" width="275px" alt="CSS van website"></p>
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Bryan   | Jordi          | Daan               | Zennay       | Lars             |
-  | Hoe krijg ik de afbeeldingen goed op plaats? | ---            | ---                | ---          | ---              |
-  | Hoe krijg ik de nav goed aan het werk?        | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | hoe kan ik de linker gap weghalen bij mijn carrousel        | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | Hoe style je met div? | ...            | ...                | ...          | ...              |
+  | Bryan                                                | Daan           | Jordi              | Lars         | Zennay           |
+  | ---                                                  | ---            | ---                | ---          | ---              |
+  | Hoe krijg ik de afbeeldingen goed op plaats?         | ---            | ---                | ---          | ---              |
+  | Hoe krijg ik de nav goed aan het werk?               | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | hoe kan ik de linker gap weghalen bij mijn carrousel | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Hoe style je met div?                                | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
-
+  - Tip: let op dubbele code
+  - Css reset voor box-sizing
+  - @font-face {} kun je fonts downloaden en gebruiken in je website Src: url (?/font/font\ font type\ font name);
+  - fix de problemen in mijn website wat in /**/ staan
 </details>
 
 
@@ -229,15 +243,32 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Deze week had ik moeite om het dropdown menu aan de praat te krijgen. Uiteindelijk lukte het met behulp van de tutorials op DLO.
+  Ook was het deze week moeilijk om tijd vrij te maken om aan de website te werken.
+
+  Dit is mijn voortgang van mijn code tot nu toe.
+
+  HTML
+  <p align="left"><img src="readme-images/voortgang3_week4/" width="275px" alt="HTML van website"></p>
+  <p align="left"><img src="readme-images/voortgang3_week4/" width="275px" alt="HTML van website"></p>
+  <p align="left"><img src="readme-images/voortgang3_week4/" width="275px" alt="HTML van website"></p>
+
+  CSS
+  <p align="left"><img src="readme-images/voortgang3_week4/"  width="275px" alt="CSS van website"></p>
+  <p align="left"><img src="readme-images/voortgang3_week4/" width="275px" alt="CSS van website"></p>
+  <p align="left"><img src="readme-images/voortgang3_week4/" width="275px" alt="CSS van website"></p>
+
+  Java Script
+  <p align="left"><img src="readme-images/voortgang3_week4/" width="275px" alt="Java Script van website"></p>
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Bryan          | Daan               | Jordi        | Lars             | Zennay           |
+  | ---            | ---                | ---          | ---              | ---              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              | ...              |
 
 
   ### Verslag van meeting
@@ -297,5 +328,4 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   9. [remove line under link - code: text-decoration: none;](https://stackoverflow.com/questions/2789703/remove-blue-underline-from-link)
   10. [Maakt elke eerste letter cappital Code: text-transform: capitalize;](https://love2dev.com/blog/css-text-transform/#:~:text=The%20CSS%20text%2Dtransform%20Property,-The%20CSS%20text&text=uppercase%3A%20makes%20all%20of%20the,exactly%20as%20it%20was%20entered)
   11. [Github image align left](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-file-on-github)
-
 </details>

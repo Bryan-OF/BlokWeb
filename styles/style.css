@@ -41,6 +41,7 @@
 
 	/* kleur header */
 	--bg-nav: var(--color-huisstyle-black);
+	--color-menu: var(--color-huisstyle-white);
 
 	/* kleur first section */
 	--bg-firstSection: var(--color-huisstyle-darkPurple);
@@ -108,10 +109,12 @@ header {
 
 header ul {
 	margin: 0;
-	padding: 1em;
+	padding: 1em 1em .7em 1em;
 	list-style: none;
 	display: flex;
-	gap: 1em;
+	gap: 1.7em;
+	display:row;
+	place-items:center;
 }
 
 header ul li:first-of-type {
@@ -119,8 +122,12 @@ header ul li:first-of-type {
 }
 
 header li img {
-	width: 2em;
-	margin-right:.125em;
+	width: 1.1em;
+	margin-right: .15em;
+}
+
+header li:nth-of-type(1) img {
+	width: 2.3em;
 }
 
 /* hamburger menu in 5 minuten link:https://codepen.io/shooft/pen/vYjgNwj */
@@ -152,26 +159,29 @@ header li:nth-of-type(6) button {
 
 	/* position:relative;
 	z-index:100; */
-	width:3em;
-	height:3em;
-	padding:0;
-	background-color: red;
+	width: 3em;
+	height: 3em;
+	padding: 0;
+	background-color: var(--bg-nav);
+	border: 0;
+	margin-left: -.5em;
+	margin-bottom: .1em;
 }
   
 /* alledrie de streepjes */
 header li:nth-of-type(6) button span {
 	/* alledrie de spans in de eerste kolom en rij */
 	/* ze staan dan over elkaar heen*/
-	grid-row-start:1;
-	grid-column-start:1;
+	grid-row-start: 1;
+	grid-column-start: 1;
 	
 	/* grootte en kleur van de streepjes */
-	width: 1em;
-	height: .2em;
+	width: 1.3em;
+	height: .15em;
 	
 	/* transities duren .5s */
 	transition-duration:.5s;
-	background-color: white;
+	background-color: var(--color-menu);
 }
 
 /* het eerste streepje */
@@ -248,18 +258,22 @@ main {
 section:nth-of-type(1) {
 	background-color: var(--bg-firstSection);
 	text-align: center;
-	padding: 2em 1em 3em 1em;
+	padding: 1.5em 1em 3em 1em;
 }
 
 section:nth-of-type(1) h1 {
 	color: var(--color-firstSection-h1);
-	font-size: 1.3em;
+	font-size: 1.22em;
 	text-transform: uppercase;
+	font-weight: 700;
+	word-spacing: .1em;
+	line-height: 1.5em;
 }
 
 section:nth-of-type(1) p {
 	color: var(--color-firstSection-p);
 	padding-bottom: 1.5em;
+	line-height: 1.5em;
 }
 
 section:nth-of-type(1) button {
