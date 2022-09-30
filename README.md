@@ -128,11 +128,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Bryan                                          | Daan               | Jordi        | Lars                                                           | Zennay           |
-  | ---                                            | ---                | ---          | ---                                                            | ---              |
-  | Of mijn HTML en CSS code wel goed opgemaakt is | en dit             | en ik dit    | Hoe kan ik het beste mijn css structureren?                    | en dan ik dat    |
-  | Hoe maak ik een dropdown menu                  | dit als er tijd is | nog een punt | background-image werkt niet, waar ligt dat aan?                | dit wil ik zeker |
-  | De icontjes vinden voor de website             | ...                | ...          | Is het gebruikelijk om af te wisselen in display grid en flex? | ...              |
+  | Bryan                                          | Daan               | Jordi        | Lars                                                           | Zennay                                                                                                       |
+  | ---                                            | ---                | ---          | ---                                                            | ---                                                                                                          |
+  | Of mijn HTML en CSS code wel goed opgemaakt is | en dit             | en ik dit    | Hoe kan ik het beste mijn css structureren?                    | Hoe kan ik mijn site responsive maken en de portfolio blokken naast elkaar zetten als het scherm groter word |
+  | Hoe maak ik een dropdown menu                  | dit als er tijd is | nog een punt | background-image werkt niet, waar ligt dat aan?                | Hoe krijg ik een streepje achter mijn tekst zoals eerst.                                                     |
+  | De icontjes vinden voor de website             | ...                | ...          | Is het gebruikelijk om af te wisselen in display grid en flex? | Hoe krijg ik mijn svg logo mooi in het scherm.                                                               |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -267,11 +267,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
   
-  | Bryan                                                         | Daan               | Jordi        | Lars             | Zennay           |
-  | ---                                                           | ---                | ---          | ---              | ---              |
-  | kan ik 2 style sheet gebruiken of moet ik meteen 3 gebruiken? | en dit             | en ik dit    | en dan ik dat    | en dan ik dat    |
-  | ziet mijn html en css code er to nu toe er goed uit?          | dit als er tijd is | nog een punt | dit wil ik zeker | dit wil ik zeker |
-  | hoe verandere ik de kleur van de svg bestand in css           | ...                | ...          | ...              | ...              |
+  | Bryan                                                         | Daan               | Jordi        | Lars                                                                                                                                | Zennay           |
+  | ---                                                           | ---                | ---          | ---                                                                                                                                 | ---              |
+  | kan ik 2 style sheet gebruiken of moet ik meteen 3 gebruiken? | en dit             | en ik dit    | Hoe krijg ik een andere kleur outline geven                                                                                         | en dan ik dat    |
+  | ziet mijn html en css code er to nu toe er goed uit?          | dit als er tijd is | nog een punt | Hoe kan ik het beste de tekst na het aanvink vakje plaatsen                                                                         | dit wil ik zeker |
+  | hoe verandere ik de kleur van de svg bestand in css           | ...                | ...          | Hoe krijg ik het voor elkaar om een button disabled te maken en vervolgens, abled te maken als er op de aanvinkinput wordt geklikt? | ...              |
 
 
   ### Verslag van meeting
