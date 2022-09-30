@@ -244,7 +244,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
   
   Dit is mijn eerste opmaak van mijn website.
-  <p align="left"><img src="readme-images/voortgang3_week4/" width="275px" alt="derde opmaak van mijn website."></p>
+  <p align="left"><img src="readme-images/voortgang3_week4/derde_versie_website.png" width="275px" alt="derde opmaak van mijn website."></p>
 
   Deze week had ik moeite om het dropdown menu aan de praat te krijgen. uiteindelijk is het gelukt met de hulp van sanne.
   Ook was het deze week moeilijk om tijd vrij te maken om aan de website te werken. 
