@@ -304,9 +304,14 @@ header nav:nth-of-type(2) ul li a img {
 	margin-right: .5em;
 }
 
+button:active {
+	transform: translateY(1px) ;
+}
 
-
-
+a:active {
+	transform: translateY(1px) ;
+	display: inline-block;
+}
 
 /****************/
 /* main */
@@ -430,7 +435,7 @@ section:nth-of-type(2) li p {
 	line-height: 1.5em;
 }
 
-section:nth-of-type(2) div:nth-of-type(1) {
+section:nth-of-type(2) div {
 	display: flex;
 	justify-content: space-between;
 	padding: .5em 0;
@@ -483,9 +488,9 @@ section:nth-of-type(2) div:nth-of-type(2) img:nth-of-type(1) {
 
 
 
-/****************/
+/********************/
 /* Completed Builds */
-/****************/
+/********************/
 
 section:nth-of-type(3){
 	background-color: var(--bg-completedBuilds);
@@ -576,3 +581,5 @@ footer p {
 	font-size: .7em;
 	text-align: center;
 }
+
+/* font-size: clamp(15em, 10vw, 2.5em) */
