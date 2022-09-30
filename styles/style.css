@@ -47,6 +47,8 @@
 	/* Nav open */
 	--bg-nav-open: var(--color-huisstyle-darkPurple);
 	--color-bottom-borderLine:var(--color-huisstyle-lightGrey);
+	--bg-menu-open: var(--color-huisstyle-black);
+	--color-nav-text:var(--color-huisstyle-white);
 
 	/* kleur first section */
 	--bg-firstSection: var(--color-huisstyle-darkPurple);
@@ -240,7 +242,14 @@ header button.menuOpen span:nth-of-type(3) {
 	transform:rotate(-45deg) scalex(1.25);
 }
 
-/* uitschuifmenu  */
+
+
+
+
+/*****************/
+/* uitschuifmenu */
+/*****************/
+
 header nav:nth-of-type(2) {
 	position:fixed;
 	inset:0;
@@ -260,11 +269,11 @@ header nav:nth-of-type(2) ul {
 	margin: 0;
 }
 
-header nav:nth-of-type(2) ul li:nth-of-type(1) {
-	background-color: #11131D;
-	color: #FFFFFF;
+header nav:nth-of-type(2) li:nth-of-type(1) {
+	background-color: var(--bg-menu-open);
+	color: var(--color-nav-text);
 	font-weight: 700;
-	padding: 1.11em 1em;
+	padding: .78em 1em;
 	font-size: 1.3em;
 	border-bottom: none;
 
@@ -274,7 +283,7 @@ header nav:nth-of-type(2) ul li:nth-of-type(1) {
 
 header nav:nth-of-type(2) ul li {
 	padding: 1em;
-	align-items:center;
+	align-items: center;
 
 	border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -284,14 +293,14 @@ header nav:nth-of-type(2) ul li {
 header nav:nth-of-type(2) ul li a {
 	font-size: 1.4em;
 	display: flex;
-	align-items:center;
-	color: #FFFFFF;
+	align-items: center;
+	color: var(--color-nav-text);
 	text-decoration: none;
 }
 
 header nav:nth-of-type(2) li:nth-of-type(1) img {
 	max-width: 2em;
-	height: 1.2em;
+	height: 2em;
 	display: inline-block;
 	margin-right: .5em;
 }
@@ -307,6 +316,14 @@ header nav:nth-of-type(2) ul li a img {
 button:active {
 	transform: translateY(1px) ;
 }
+
+
+
+
+
+/****************/
+/* Hover states */
+/****************/
 
 a:active {
 	transform: translateY(1px) ;
