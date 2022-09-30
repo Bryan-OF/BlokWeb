@@ -243,8 +243,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-  Deze week had ik moeite om het dropdown menu aan de praat te krijgen. 
-  Ook was het deze week moeilijk om tijd vrij te maken om aan de website te werken.
+  Deze week had ik moeite om het dropdown menu aan de praat te krijgen. uiteindelijk is het gelukt met de hulp van sanne.
+  Ook was het deze week moeilijk om tijd vrij te maken om aan de website te werken. 
 
   Dit is mijn voortgang van mijn code tot nu toe.
 
@@ -263,12 +263,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-
-  | Bryan          | Daan               | Jordi        | Lars             | Zennay           |
-  | ---            | ---                | ---          | ---              | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              | ...              |
+  
+  | Bryan                                                         | Daan               | Jordi        | Lars             | Zennay           |
+  | ---                                                           | ---                | ---          | ---              | ---              |
+  | kan ik 2 style sheet gebruiken of moet ik meteen 3 gebruiken? | en dit             | en ik dit    | en dan ik dat    | en dan ik dat    |
+  | ziet mijn html en css code er to nu toe er goed uit?          | dit als er tijd is | nog een punt | dit wil ik zeker | dit wil ik zeker |
+  | hoe verandere ik de kleur van de svg bestand in css           | ...                | ...          | ...              | ...              |
 
 
   ### Verslag van meeting
