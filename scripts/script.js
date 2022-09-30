@@ -6,7 +6,14 @@ console.log("hi");
 /***********************/
 
 
+var deMenuButton = document.querySelector("header button");
 
+deMenuButton.addEventListener("click", toggleMenu);
+
+function toggleMenu() {
+  var hetMenu = document.querySelector("header nav:nth-of-type(2)");
+  hetMenu.classList.toggle("open");
+}
 
 
 

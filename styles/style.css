@@ -28,6 +28,7 @@
 	--color-huisstyle-orange:#E26723;
 	--color-huisstyle-lightYellow:#FFE683;
 	--color-huisstyle-brown:#321607;
+	--color-huisstyle-lightGrey:#3a3f5a;
 
 	/* fonts */
 	--font-huisstyle: system-ui, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -42,6 +43,10 @@
 	/* kleur header */
 	--bg-nav: var(--color-huisstyle-black);
 	--color-menu: var(--color-huisstyle-white);
+
+	/* Nav open */
+	--bg-nav-open: var(--color-huisstyle-darkPurple);
+	--color-bottom-borderLine:var(--color-huisstyle-lightGrey);
 
 	/* kleur first section */
 	--bg-firstSection: var(--color-huisstyle-darkPurple);
@@ -103,6 +108,8 @@ button:not(disabled) {
 
 
 
+
+
 /**********/
 /* Header */
 /**********/
@@ -115,46 +122,36 @@ header {
 	top: 0;
 	width: 100%;
 	z-index: 10;
+	display: flex;
+	align-items: center;
 }
 
-header ul {
+header nav:nth-of-type(1) {
+	flex-grow: 1;
+}
+
+header nav:nth-of-type(1) ul {
 	margin: 0;
 	padding: 1em 1em .7em 1em;
 	list-style: none;
 	display: flex;
-	gap: 1.7em;
-	display:row;
-	place-items:center;
-	
+	align-items: center;
+	gap: 1.8em;
 }
 
-header ul li:first-of-type {
+header nav:nth-of-type(1) ul li:first-of-type {
 	margin-right: auto;
 }
 
-header li img {
+header nav:nth-of-type(1) li img {
 	width: 1.1em;
-	margin-right: .15em;
 }
 
-header li:nth-of-type(1) img {
+header nav:nth-of-type(1) li:nth-of-type(1) img {
 	width: 2.3em;
 }
 
-/* hamburger menu in 5 minuten link:https://codepen.io/shooft/pen/vYjgNwj */
 
-/* header nav {
-	position:fixed;
-	inset:0;
-	
-	transform:translateX(-100%);
-	
-	transition:1s;
-}
-
-header nav.open {
-	transform:translateX(0%);
-} */
 
 
 
@@ -162,25 +159,26 @@ header nav.open {
 /* Header menu button*/
 /*********************/
 
+/* hamburger menu in 5 minuten link:https://codepen.io/shooft/pen/vYjgNwj */
 /* hamburger menu met bewegend strepen link:https://codepen.io/shooft/pen/dymRMBZ */
-header li:nth-of-type(6) button {
+header button {
 	/* grid om de 3 spans in het midden van de button te positioneren */
 	display:grid;
 	place-items:center;
 
 	/* position:relative;
 	z-index:100; */
-	width: 3em;
-	height: 3em;
+	width: 4em;
+	height: 4em;
 	padding: 0;
-	background-color: var(--bg-nav);
+	margin-right: .7em;
+	background-color: transparent;
 	border: 0;
-	margin-left: -.5em;
-	margin-bottom: .1em;
+	z-index: 100;
 }
   
 /* alledrie de streepjes */
-header li:nth-of-type(6) button span {
+header button span {
 	/* alledrie de spans in de eerste kolom en rij */
 	/* ze staan dan over elkaar heen*/
 	grid-row-start: 1;
@@ -196,7 +194,7 @@ header li:nth-of-type(6) button span {
 }
 
 /* het eerste streepje */
-header li:nth-of-type(6) button span:nth-of-type(1) {
+header button span:nth-of-type(1) {
 	/* met transform: */
 	/* .4em omhoog */
 	/* developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateY */
@@ -204,7 +202,7 @@ header li:nth-of-type(6) button span:nth-of-type(1) {
 }
   
 /* het derde streepje */
-header li:nth-of-type(6) button span:nth-of-type(3) {
+header button span:nth-of-type(3) {
 	/* met transform: */
 	/* .4em omlaag */
 	transform:translateY(.4em);
@@ -219,7 +217,7 @@ header li:nth-of-type(6) button span:nth-of-type(3) {
 /***********************************************************/
 
 /* het eerste streepje */
-header li:nth-of-type(6) button.menuOpen span:nth-of-type(1) {
+header button.menuOpen span:nth-of-type(1) {
 	/* met transform: */
 	/* 1: 45 graden draaien met de klok mee */
 	/* developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate */
@@ -229,17 +227,81 @@ header li:nth-of-type(6) button.menuOpen span:nth-of-type(1) {
 }
   
 /* het tweede streepje */
-header li:nth-of-type(6) button.menuOpen span:nth-of-type(2) {
+header button.menuOpen span:nth-of-type(2) {
 	/* met opacity helemaal doorzichtig maken */
 	opacity:0;
 }
   
 /* het derde streepje */
-header li:nth-of-type(6) button.menuOpen span:nth-of-type(3) {
+header button.menuOpen span:nth-of-type(3) {
 	/* met transform: */
 	/* 1. 45 graden draaien tegen de klok in */
 	/* 2. 25% langer maken */
 	transform:rotate(-45deg) scalex(1.25);
+}
+
+/* uitschuifmenu  */
+header nav:nth-of-type(2) {
+	position:fixed;
+	inset:0;
+	background-color: var(--bg-nav-open);
+
+	transform: translateX(-100%);
+
+	transition: .5s;
+}
+
+header nav:nth-of-type(2).open {
+	transform: translateX(0%);
+}
+
+header nav:nth-of-type(2) ul {
+	padding: 0;
+	margin: 0;
+}
+
+header nav:nth-of-type(2) ul li:nth-of-type(1) {
+	background-color: #11131D;
+	color: #FFFFFF;
+	font-weight: 700;
+	padding: 1.11em 1em;
+	font-size: 1.3em;
+	border-bottom: none;
+
+	align-items:center;
+	display: flex;
+}
+
+header nav:nth-of-type(2) ul li {
+	padding: 1em;
+	align-items:center;
+
+	border-bottom-style: solid;
+    border-bottom-width: 1px;
+	border-color: var(--color-bottom-borderLine);
+}
+
+header nav:nth-of-type(2) ul li a {
+	font-size: 1.4em;
+	display: flex;
+	align-items:center;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+header nav:nth-of-type(2) li:nth-of-type(1) img {
+	max-width: 2em;
+	height: 1.2em;
+	display: inline-block;
+	margin-right: .5em;
+}
+
+header nav:nth-of-type(2) ul li a img {
+	max-width: 2.2em;
+	height: 1.5em;
+	
+	display: inline-block;
+	margin-right: .5em;
 }
 
 
@@ -287,7 +349,7 @@ section:nth-of-type(1) p {
 	line-height: 1.5em;
 }
 
-section:nth-of-type(1) button {
+section:nth-of-type(1) a {
 	background-color: var(--bg-firstSection-button);
 	font-family: var(--font-huisstyle);
 	color: var(--color-firstSection-button);
@@ -300,7 +362,7 @@ section:nth-of-type(1) button {
 	text-transform: capitalize;
 }
 
-section:nth-of-type(1) button img {
+section:nth-of-type(1) a img {
 	max-width: 1em;
 	height: .9em;
 	
@@ -330,7 +392,7 @@ section:nth-of-type(2) h2 {
 	text-transform: capitalize;
 }
 
-section:nth-of-type(2) p {
+section:nth-of-type(2) >p {
 	color: var(--color-build-guides-p);
 	opacity: 0.6;
 	font-size: 1em;
@@ -368,17 +430,14 @@ section:nth-of-type(2) li p {
 	line-height: 1.5em;
 }
 
-section:nth-of-type(2) li p:nth-of-type(4) {
-	color: var(--color-buildGuides-li-p-lastTwo);
-	float: left;
-	margin-top: 2em;
-	font-size: 1em;
+section:nth-of-type(2) div:nth-of-type(1) {
+	display: flex;
+	justify-content: space-between;
+	padding: .5em 0;
 }
 
-section:nth-of-type(2) li p:nth-of-type(5) {
+section:nth-of-type(2) div:nth-of-type(1) p {
 	color: var(--color-buildGuides-li-p-lastTwo);
-	float: right;
-	margin-top: 2em;
 	font-size: 1em;
 }
 
@@ -400,20 +459,29 @@ section:nth-of-type(2) button img {
 	height: 1em;
 }
 
-/* Sanne of student assistent vragen */
-section:nth-of-type(2) ul li div img {
-	top: 0;
-	width: 4em;
-	min-height: 4em;
+section:nth-of-type(2) div:nth-of-type(2) {
+	background-color: #f4f4f3;
 	display: grid;
-	grid-template-columns: 2 1;
-    grid-template-rows: 1 1;
-    grid-gap: 1em;
+	grid-template-columns: 2fr 1fr;
+	place-content: center;
+	padding: .5em;
 }
 
-section:nth-of-type(2) div {
-	background-color: #f4f4f3;
+section:nth-of-type(2) div:nth-of-type(2) img {
+	width: 100%;
 }
+
+section:nth-of-type(2) div:nth-of-type(2) img:nth-of-type(1) {
+	grid-column-start: 1;
+	grid-column-end: 2;
+
+	grid-row-start: 1;
+	grid-row-end:3;
+}
+
+
+
+
 
 /****************/
 /* Completed Builds */
