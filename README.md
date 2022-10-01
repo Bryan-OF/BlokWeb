@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 )
   #### Screenshot(s) van de eerste pagina (small screen): 
   Dit is de Home-pagina van PC-partpicker
-  <p align="left"><img src="readme-images/home_page.png" width="275px" alt="Home page"></p>
+  <div align="left"><img src="readme-images/home_page.png" width="275px" alt="Home page"></div>
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Op deze pagina kun je complete PC buils vinden.
-  <p align="left"><img src="readme-images/pc_building.png" width="275px" alt="PC building page"></p>
+  <div align="left"><img src="readme-images/pc_building.png" width="275px" alt="PC building page"></div>
 </details>
 
 
@@ -277,8 +277,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
+  - Gebruik dit weekend om zo veel mogelijk aan de website te werken
+  - Let op de detail! geen spelfouten en 
   - nog een punt
   - ...
 
@@ -333,4 +333,5 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   11. [Github image align left](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-file-on-github)
   12. [Sticky header Source: FED 22/23 - Flexbox - Oefening 2 - uitwerking](https://codepen.io/shooft/pen/zYWWXmG)
   13. [Text-contrast change](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/contrast)
+  14. [website om afbeelding te testen en hoe ze passen](https://placeholder.com/)
 </details>
