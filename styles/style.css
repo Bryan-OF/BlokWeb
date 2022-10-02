@@ -54,8 +54,8 @@
 	--bg-firstSection: var(--color-huisstyle-darkPurple);
 	--color-firstSection-h1: var(--color-huisstyle-white);
 	--color-firstSection-p: var(--color-huisstyle-white);
-	--bg-firstSection-button: var(--color-huisstyle-lightBlue);
-	--color-firstSection-button: var(--color-huisstyle-white);
+	--bg-firstSection-button-a: var(--color-huisstyle-lightBlue);
+	--color-firstSection-button-a: var(--color-huisstyle-white);
 
 	/* Build Guids */
 	--bg-buildGuides: var(--color-huisstyle-darkGrey);
@@ -66,16 +66,26 @@
 	--color-buildGuides-h3: var(--color-huisstyle-white);
 	--color-buildGuides-li-p: var(--color-huisstyle-LighterBlack);
 	--color-buildGuides-li-p-lastTwo: var(--color-huisstyle-white);
+	--bg-imageColor: var(--color-huisstyle-white);
 
-	--bg-buildGuides-button: var(--color-huisstyle-lightBlue);
-	--color-buildGuides-button: var(--color-huisstyle-white);
+	--bg-buildGuides-button-a: var(--color-huisstyle-lightBlue);
+	--color-buildGuides-button-a: var(--color-huisstyle-white);
 
 	/* Completed Builds */
 	--bg-completedBuilds: var(--color-huisstyle-darkerWhite);
 	--bg-featuredBuilds: var(--color-huisstyle-orange);
 
-	--bg-completedBuilds-a: var(--color-huisstyle-lightBlue);
-	--color-completedBuilds-a: var(--color-huisstyle-white);
+	--color-completedBuilds-h3: var(--color-huisstyle-white);
+	--color-highlightedName: var(--color-huisstyle-lightYellow);
+
+	--bg-completedBuilds-h4:var(--color-huisstyle-LighterBlack);
+	--color-completedBuilds-h4: var(--color-huisstyle-white);
+
+	--bg-completedBuilds-third-div:var(--color-huisstyle-white);
+	--color-completedBuilds-third-div:var(--color-huisstyle-LighterBlack);
+
+	--bg-completedBuilds-button-a: var(--color-huisstyle-lightBlue);
+	--color-completedBuilds-button-a: var(--color-huisstyle-white);
 
 	/* footer */
 	--bg-footer: var(--color-huisstyle-darkPurple);
@@ -83,6 +93,8 @@
 	--color-footer-h4: var(--color-huisstyle-white);
 	--color-footer-a: var(--color-huisstyle-lightBlue);
 	--color-footer-p: var(--color-huisstyle-white);
+
+	--color-footer-bottom-borderLine: var(--color-huisstyle-white);
 }
 
 
@@ -372,9 +384,9 @@ section:nth-of-type(1) p {
 }
 
 section:nth-of-type(1) a {
-	background-color: var(--bg-firstSection-button);
+	background-color: var(--bg-firstSection-button-a);
 	font-family: var(--font-huisstyle);
-	color: var(--color-firstSection-button);
+	color: var(--color-firstSection-button-a);
 	padding: .5em .9em .5em .9em;
 	font-size: 1.2em;
 	border-radius: .3em;
@@ -432,7 +444,7 @@ section:nth-of-type(2) ul {
 section:nth-of-type(2) li {
 	background-color: var(--bg-buildGuides-courosel);
 	min-width: 18em;
-	padding: 1.5em;
+	padding: .5em;
 	list-style: none;
 }
 
@@ -440,6 +452,7 @@ section:nth-of-type(2) h3 {
 	color: var(--color-buildGuides-h3);
 	margin-top: 0;
 	text-align: left;
+	padding: 1em .5em 0;
 }
 
 /* text-contrast change link: https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/contrast */
@@ -449,13 +462,18 @@ section:nth-of-type(2) li p {
 	font-weight: 700;
 	margin: 0em .3em 0 0;
 	text-align: left;
-	line-height: 1.5em;
+	line-height: 1.5;
+	padding: 0 1em;
 }
 
 section:nth-of-type(2) div {
 	display: flex;
 	justify-content: space-between;
-	padding: .5em 0;
+	padding: 1em 0;
+}
+
+section:nth-of-type(2) ul li:nth-of-type(2) h3 {
+	padding-bottom: .4em;
 }
 
 section:nth-of-type(2) div:nth-of-type(1) p {
@@ -463,10 +481,14 @@ section:nth-of-type(2) div:nth-of-type(1) p {
 	font-size: 1em;
 }
 
-section:nth-of-type(2) button {
-	background-color: var(--bg-buildGuides-button);
+/* section:nth-of-type(2) ul li a {
+	text-decoration: none;
+} */
+
+section:nth-of-type(2) a {
+	background-color: var(--bg-buildGuides-button-a);
 	font-family: var(--font-huisstyle);
-	color: var(--color-buildGuides-button);
+	color: var(--color-buildGuides-button-a);
 	padding: .5em 1em .5em 1em;
 	font-size: 1.2em;
 	border-radius: .3em;
@@ -476,13 +498,13 @@ section:nth-of-type(2) button {
 	text-transform: capitalize;
 }
 
-section:nth-of-type(2) button img {
+section:nth-of-type(2) a img {
 	width: 1em;
 	height: 1em;
 }
 
 section:nth-of-type(2) div:nth-of-type(2) {
-	background-color: #f4f4f3;
+	background-color: var(--bg-imageColor);
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	place-content: center;
@@ -511,31 +533,118 @@ section:nth-of-type(2) div:nth-of-type(2) img:nth-of-type(1) {
 
 section:nth-of-type(3){
 	background-color: var(--bg-completedBuilds);
-	padding: 2em;
+	padding: 1.5em 1em 1em 1em;
+	text-align: center;
 }
 
 section:nth-of-type(3) ul {
-	display: flex;
-	gap: 1em;
+    display: flex;
+    gap: 1em;
+    padding-left: 0;
 	overflow-x: auto;
-}
-
-section:nth-of-type(3) ul {
-	display: flex;
-	gap: 1em;
-	overflow-x: auto;
+    text-align: left;
 }
 
 section:nth-of-type(3) li {
-	min-width: 18em;
-	padding: 1em;
 	list-style: none;
+	display: grid;
+    grid-column-gap: 1em;
+    grid-auto-columns: 17.8em;
+	box-shadow: 0px .1em .1em rgb(0 0 0 / 20%);
 }
 
-section:nth-of-type(3) button {
-	background-color: var(--bg-buildGuides-button);
+section:nth-of-type(3) li:first-child {
+    background-color: var(--bg-featuredBuilds);
+	padding: 0.5em;
+	box-shadow: none;
+}
+
+section:nth-of-type(3) li figcaption:first-child {
+	text-align: center;
+}
+
+section:nth-of-type(3) li img:first-child {
+	width: 1.5em;
+    height: 1.5em;
+}
+
+section:nth-of-type(3) li h3 {
+	color: var(--color-completedBuilds-h3);
+	text-align: center;
+	margin: 0 0 .3em 0;
+	font-size: 1.5em;
+}
+ 
+section:nth-of-type(3) li p:nth-of-type(1) {
+	text-align: center;
+	margin: 0;
+	line-height: normal;
+	margin: 0 0 1.25em 0;
+}
+
+section:nth-of-type(3) li p:first-of-type span {
+	color: var(--color-highlightedName);
+}
+
+section:nth-of-type(3) li h4 {
+	color: var(--color-completedBuilds-h4);
+	background-color: var(--bg-completedBuilds-h4);
+	font-weight: bold;
+	padding: 0.75em 1em;
+	font-size: 1em;
+	margin: 0;
+}
+
+section:nth-of-type(3) li div {
+	text-align: left;
+	background-color: var(--bg-completedBuilds-third-div);
+	color: var(--color-completedBuilds-third-div);
+	padding: 0.63em 1.25em;
+}
+
+section:nth-of-type(3) li div h5 {
+	font-weight: 700;
+    font-size: 1.1em;
+    margin: 0 0 1em 0;
+}
+
+section:nth-of-type(3) li div p {
+	text-align: left;
+	font-size: 0.75em;
+}
+
+section:nth-of-type(3) li div p:nth-of-type(1), section:nth-of-type(3) li div p{
+	margin: 0;
+}
+
+section:nth-of-type(3) li div p:nth-of-type(1){
+	margin-bottom: .3em;
+	text-align: left;
+}
+
+section:nth-of-type(3) li div div {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	font-weight: 700;
+	margin-top: 1.25em;
+	border-top: .1em solid #EAEAEA;
+	padding-top: .7em;
+}
+
+section:nth-of-type(3) li div span {
+	display: flex;
+    justify-content: space-between;
+}
+
+section:nth-of-type(3) li div span p:first-of-type {
+	margin-right: .7em;
+}
+
+section:nth-of-type(3) a {
+	background-color: var(--bg-buildGuides-button-a);
 	font-family: var(--font-huisstyle);
-	color: var(--color-buildGuides-button);
+	color: var(--color-buildGuides-button-a);
 	padding: .5em 1em .5em 1em;
 	font-size: 1.2em;
 	border-radius: .3em;
@@ -545,7 +654,7 @@ section:nth-of-type(3) button {
 	text-transform: capitalize;
 }
 
-section:nth-of-type(3) button img {
+section:nth-of-type(3) a img {
 	width: 1em;
 	height: 1em;
 }
@@ -560,13 +669,15 @@ section:nth-of-type(3) button img {
 
 footer {
 	background-color: var(--bg-footer);
-	padding: 2em;
+	padding: 3em 1em 2em 1em;
 	font-size: 1.1em;
 }
 
 footer h3 {
 	color: var(--color-footer-h3);
 	text-align: left;
+	text-transform: uppercase;
+	padding-bottom: 1em;
 }
 
 footer h4 {
@@ -574,11 +685,16 @@ footer h4 {
 	text-align: left;
 	text-transform: uppercase;
 	font-weight: 500;
-	line-height: 1.5;
+
+	border-bottom-style: solid;
+	padding-bottom: .5em;
+    border-bottom-width: .15em;
+    border-color: var(--color-footer-bottom-borderLine) ;
 }
 
 footer ul {
 	margin-left: -2.3em;
+	padding-bottom: 2em;
 }
 
 footer ul li {
@@ -586,7 +702,7 @@ footer ul li {
 }
 
 footer ul li a {
-	padding: 0 0 0 0;
+	padding: 0;
 	list-style: none;
 	color: var(--color-footer-a);
 	text-decoration: none;
@@ -597,6 +713,23 @@ footer p {
 	color: var(--color-footer-p);
 	font-size: .7em;
 	text-align: center;
+}
+
+footer ul:nth-of-type(4){
+	margin: 0;
+    padding: 1.5em 1em 0.7em 1em;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+    gap: 1.5em;
+
+	border-top-style: solid;
+    border-top-width: .15em;
+    border-color: var(--color-footer-bottom-borderLine) ;
+}
+
+footer ul:nth-of-type(4) img {
+	width: 2em;
 }
 
 /* font-size: clamp(15em, 10vw, 2.5em) */

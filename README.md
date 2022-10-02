@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 )
   #### Screenshot(s) van de eerste pagina (small screen): 
   Dit is de Home-pagina van PC-partpicker
-  <div align="left"><img src="readme-images/home_page.png" width="275px" alt="Home page"></div>
+  <p align="left"><img src="readme-images/home_page.png" width="275px" alt="Home page"></p>
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Op deze pagina kun je complete PC buils vinden.
-  <div align="left"><img src="readme-images/pc_building.png" width="275px" alt="PC building page"></div>
+  <p align="left"><img src="readme-images/pc_building.png" width="275px" alt="PC building page"></p>
 </details>
 
 
@@ -252,17 +252,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Dit is mijn voortgang van mijn code tot nu toe.
 
   HTML
-  <p align="left"><img src="readme-images/voortgang3_week4/" width="275px" alt="HTML van website"></p>
-  <p align="left"><img src="readme-images/voortgang3_week4/" width="275px" alt="HTML van website"></p>
-  <p align="left"><img src="readme-images/voortgang3_week4/" width="275px" alt="HTML van website"></p>
+  <p align="left"><img src="readme-images/voortgang3_week4/html_week4-01.png" width="275px" alt="HTML van website"></p>
+  <p align="left"><img src="readme-images/voortgang3_week4/html_week4-02.png" width="275px" alt="HTML van website"></p>
+  <p align="left"><img src="readme-images/voortgang3_week4/html_week4-03.png" width="275px" alt="HTML van website"></p>
 
   CSS
-  <p align="left"><img src="readme-images/voortgang3_week4/"  width="275px" alt="CSS van website"></p>
-  <p align="left"><img src="readme-images/voortgang3_week4/" width="275px" alt="CSS van website"></p>
-  <p align="left"><img src="readme-images/voortgang3_week4/" width="275px" alt="CSS van website"></p>
+  <p align="left"><img src="readme-images/voortgang3_week4/css_week4-01.png" width="275px" alt="CSS van website"></p>
+  <p align="left"><img src="readme-images/voortgang3_week4/css_week4-02.png" width="275px" alt="CSS van website"></p>
+  <p align="left"><img src="readme-images/voortgang3_week4/css_week4-03.png" width="275px" alt="CSS van website"></p>
+  <p align="left"><img src="readme-images/voortgang3_week4/css_week4-04.png" width="275px" alt="CSS van website"></p>
+  <p align="left"><img src="readme-images/voortgang3_week4/css_week4-06.png" width="275px" alt="CSS van website"></p>
 
   Java Script
-  <p align="left"><img src="readme-images/voortgang3_week4/" width="275px" alt="Java Script van website"></p>
+  <p align="left"><img src="readme-images/voortgang3_week4/javaScript_week4.png" width="275px" alt="Java Script van website"></p>
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -277,9 +279,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - Gebruik dit weekend om zo veel mogelijk aan de website te werken
-  - Let op de detail! geen spelfouten en 
-  - nog een punt
+  - Dit weekend gebruikem om zo veel mogelijk aan de website te werken
+  - Let op de detail! geen spelfouten in text en code
+  - om hulp vragen als het iets lukt
   - ...
 
 </details>
