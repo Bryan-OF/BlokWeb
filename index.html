@@ -8,7 +8,8 @@
 	
 	<title>PCPartPicker - Home Page</title>
 	
-	<link href="styles/style.css" rel="stylesheet">
+	<link href="styles/general-style.css" rel="stylesheet">
+	<link href="styles/homepage-style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/iconen/pcpp-icon.svg">
 </head>
 
@@ -42,13 +43,11 @@
 
 	<main>
 		<section>
-			<!-- flex-box op de section, op alles in order zetten (Sanne vragen)-->
-			<!-- alt text geven aan afbeeldingen -->
-			<img src="images/iconen/pcpp-logo-word.svg" alt="Pc part picker">
-
 			<h1>Pick parts. build your PC. compare and share.</h1>
 
 			<p>We provide computer part selection, compatibility, and pricing guidance for do-it-yourself computer builders.</p>
+
+			<img src="images/iconen/pcpp-logo-word.svg" alt="Pc part picker">
 
 			<a href="#"><img src="images/iconen/wrench-icon.svg" alt="">Start your build</a>
 		</section>
@@ -61,7 +60,7 @@
 
 			<ul>
 				<li>
-					<!-- <a href="#"> -->
+					<a href="#">
 						<h3>Entry level intel gaming build</h3>
 
 						<p>Intel Core i3-12100F</p>
@@ -70,7 +69,10 @@
 
 						<div>
 							<p>€753.50</p>
-							<p>102</p>
+							<span>
+								<img src="images/iconen/messages-icon-white.svg" alt="">
+								<p>102</p>
+							</span>
 						</div>
 
 						<div>
@@ -78,11 +80,11 @@
 							<img src="images/computer_builds/cpu_image_1st.jpg" alt="CPU">
 							<img src="images/computer_builds/grafischCard_image_1st.jpg" alt="Grafisch Card">
 						</div>
-					<!-- </a> -->
+					</a>
 				</li>
 
 				<li>
-					<!-- <a href="#"> -->
+					<a href="#">
 						<h3>Great AMD gaming build</h3>
 
 						<p>AMD ryzen 5 5600X</p>
@@ -91,7 +93,10 @@
 
 						<div>
 							<p>€1069.07</p>
-							<p>144</p>
+							<span>
+								<img src="images/iconen/messages-icon-white.svg" alt="">
+								<p>144</p>
+							</span>
 						</div>
 
 						<div>
@@ -99,11 +104,11 @@
 							<img src="images/computer_builds/cpu_image_3rd.jpg" alt="CPU">
 							<img src="images/computer_builds/grafischCard_image_3rd.jpg" alt="Grafisch Card">
 						</div>
-					<!-- </a> -->
+					</a>
 				</li>
 
 				<li>
-					<!-- <a href="#"> -->
+					<a href="#">
 						<h3>Enthusiast AMD gaming/Streaming build</h3>
 
 						<p>AMD ryzen 7 5800X</p>
@@ -112,7 +117,10 @@
 
 						<div>
 						<p>€1765.65</p>
-						<p>69</p>
+						<span>
+							<img src="images/iconen/messages-icon-white.svg" alt="">
+							<p>69</p>
+						</span>
 						</div>
 
 						<div>
@@ -120,11 +128,9 @@
 							<img src="images/computer_builds/cpu_image_1st.jpg" alt="CPU">
 							<img src="images/computer_builds/grafischCard_image_1st.jpg" alt="Grafisch Card">
 						</div>
-					<!-- </a> -->
+					</a>
 				</li>
 			</ul>
-
-			<!-- how to center this a -->
 
 			<a href="#"><img src="images/iconen/wrench-icon.svg" alt="">View the build guides</a>
 		</section>
@@ -273,42 +279,44 @@
 
 	<footer>
 
-		<!-- regel 31 -->
 		<img src="images/iconen/pcpp-icon.svg" alt="">
 
-		<h3>Pick parts. build your pc. compare and share.</h3>
+		<h2>Pick parts. build your pc. compare and share.</h2>
 
-		<!-- hoe geeft ik de h4 een lange line -->
-		<h4>Categories</h4>
+		<div>
+			<div>
+				<h3>Categories</h3>
+				<ul>
+					<li><a href="#">PC Builder</a></li>
+					<li><a href="#">Build Guides</a></li>
+					<li><a href="#">Completed Builds</a></li>
+					<li><a href="#">Browse Products</a></li>
+				</ul>
+			</div>
 
-		<ul>
-			<li><a href="#">PC Builder</a></li>
-			<li><a href="#">Build Guides</a></li>
-			<li><a href="#">Completed Builds</a></li>
-			<li><a href="#">Browse Products</a></li>
-		</ul>
+			<div>
+				<h3>Information</h3>
+				<ul>
+					<li><a href="#">Downloads</a></li>
+					<li><a href="#">Forums</a></li>
+					<li><a href="#">Price Trends</a></li>
+				</ul>
+			</div>
 
-		<h4>Information</h4>
-
-		<ul>
-			<li><a href="#">Downloads</a></li>
-			<li><a href="#">Forums</a></li>
-			<li><a href="#">Price Trends</a></li>
-		</ul>
-
-		<h4>Company</h4>
-
-		<ul>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Contact & imprint</a></li>
-			<li><a href="#">Terms of service</a></li>
-			<li><a href="#">User code of conduct</a></li>
-			<li><a href="#">Industry code of conduct</a></li>
-			<li><a href="#">Privacy policy</a></li>
-			<li><a href="#">Do not sell my personal information</a></li>
-			<li><a href="#">Affiliate disclosure</a></li>
-		</ul>
-
+			<div>
+				<h3>Company</h3>
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact & imprint</a></li>
+					<li><a href="#">Terms of service</a></li>
+					<li><a href="#">User code of conduct</a></li>
+					<li><a href="#">Industry code of conduct</a></li>
+					<li><a href="#">Privacy policy</a></li>
+					<li><a href="#">Do not sell my personal information</a></li>
+					<li><a href="#">Affiliate disclosure</a></li>
+				</ul>
+			</div>
+		</div>
 		<ul>
 			<li><a href="#"><img src="images/iconen/footer_facebook-icon.svg" alt=""></a></li>
 			<li><a href="#"><img src="images/iconen/footer_instagram-icon.svg" alt=""></a></li>

@@ -1,0 +1,324 @@
+/****************/
+/* eerste section */
+/****************/
+
+/* remove line under link with text-decoration: none; Link: https://stackoverflow.com/questions/2789703/remove-blue-underline-from-link */
+
+section:nth-of-type(1) {
+	background-color: var(--bg-firstSection);
+	text-align: center;
+	padding: 1.5em 1em 3em 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5em;
+}
+
+section:nth-of-type(1) h1 {
+	color: var(--color-firstSection-h1);
+	font-size: 1.22em;
+	text-transform: uppercase;
+	font-weight: 700;
+	word-spacing: .1em;
+	line-height: 1.5em;
+	margin: 0;
+}
+
+section:nth-of-type(1) p {
+	color: var(--color-firstSection-p);
+	line-height: 1.5em;
+	margin: 0;
+}
+
+section:nth-of-type(1) a {
+	background-color: var(--bg-firstSection-button-a);
+	font-family: var(--font-huisstyle);
+	color: var(--color-firstSection-button-a);
+	padding: .5em .9em .5em .9em;
+	font-size: 1.2em;
+	border-radius: .3em;
+	border: 0;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+section:nth-of-type(1) a img {
+	max-width: 1em;
+	height: .9em;
+	
+	display: inline-block;
+	margin-right: .5em;
+}
+
+section:nth-of-type(1) > img {
+	order: -100;
+}
+
+
+
+/****************/
+/* Build Guides Section */
+/****************/
+
+/* text-transform: capitalize; Maakt elke eerste letter cappital  Link: https://love2dev.com/blog/css-text-transform/#:~:text=The%20CSS%20text%2Dtransform%20Property,-The%20CSS%20text&text=uppercase%3A%20makes%20all%20of%20the,exactly%20as%20it%20was%20entered */
+
+section:nth-of-type(2) {
+	background-color: var(--bg-buildGuides);
+	padding: 1.5em 1em 6em 1em;
+	text-align: center;
+}
+
+section:nth-of-type(2) h2 {
+	color: var(--color-buildGuides-h2);
+	font-size: 2em;
+	text-transform: capitalize;
+}
+
+section:nth-of-type(2) >p {
+	color: var(--color-build-guides-p);
+	opacity: 0.6;
+	font-size: 1em;
+	margin: -.5em .3em 0 .3em;
+	line-height: 1.5em;
+}
+
+section:nth-of-type(2) ul {
+	display: flex;
+	gap: 1em;
+	overflow-x: auto;
+	padding-left: 0;
+	padding-bottom: 2em;
+}
+
+section:nth-of-type(2) li {
+	background-color: var(--bg-buildGuides-courosel);
+	min-width: 18em;
+	padding: .5em;
+	list-style: none;
+}
+
+section:nth-of-type(2) h3 {
+	color: var(--color-buildGuides-h3);
+	margin-top: 0;
+	text-align: left;
+	padding: 1em .5em 0;
+}
+
+/* text-contrast change link: https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/contrast */
+section:nth-of-type(2) li p {
+	color: var(--color-buildGuides-li-p);
+	font-size: .7em;
+	font-weight: 700;
+	margin: 0em .3em 0 0;
+	text-align: left;
+	line-height: 1.5;
+	padding: 0 1em;
+}
+
+section:nth-of-type(2) div {
+	display: flex;
+	justify-content: space-between;
+	padding: 1em 0;
+}
+
+section:nth-of-type(2) div span {
+	display: flex;
+}
+
+section:nth-of-type(2) ul li:nth-of-type(2) h3 {
+	padding-bottom: .4em;
+}
+
+section:nth-of-type(2) div:nth-of-type(1) p {
+	color: var(--color-buildGuides-li-p-lastTwo);
+	font-size: 1em;
+	padding: 0em .8em;
+}
+
+section:nth-of-type(2) div:nth-of-type(1) img {
+	width: 1em;
+}
+
+section:nth-of-type(2) ul li a {
+	text-decoration: none;
+}
+
+section:nth-of-type(2) > a {
+	background-color: var(--bg-buildGuides-button-a);
+	font-family: var(--font-huisstyle);
+	color: var(--color-buildGuides-button-a);
+	padding: .5em 1em .5em 1em;
+	font-size: 1.2em;
+	border-radius: .3em;
+	border: 0;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+section:nth-of-type(2) > a img {
+	max-width: 1em;
+	height: .9em;
+	
+	display: inline-block;
+	margin-right: .5em;
+}
+
+section:nth-of-type(2) div:nth-of-type(2) {
+	background-color: var(--bg-imageColor);
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+	place-content: center;
+	padding: 2em 1em;
+}
+
+section:nth-of-type(2) div:nth-of-type(2) img {
+	width: 100%;
+}
+
+section:nth-of-type(2) div:nth-of-type(2) img:nth-of-type(1) {
+	grid-column-start: 1;
+	grid-column-end: 2;
+
+	grid-row-start: 1;
+	grid-row-end:3;
+}
+
+
+
+
+
+/********************/
+/* Completed Builds */
+/********************/
+
+section:nth-of-type(3){
+	background-color: var(--bg-completedBuilds);
+	padding: 1.5em 1em 1em 1em;
+	text-align: center;
+}
+
+section:nth-of-type(3) ul {
+    display: flex;
+    gap: 1em;
+    padding-left: 0;
+	overflow-x: auto;
+    text-align: left;
+}
+
+section:nth-of-type(3) li {
+	list-style: none;
+	display: grid;
+    grid-column-gap: 1em;
+    grid-auto-columns: 17.8em;
+	box-shadow: 0px .1em .1em rgb(0 0 0 / 20%);
+}
+
+section:nth-of-type(3) li:first-child {
+    background-color: var(--bg-featuredBuilds);
+	padding: 0.5em;
+	box-shadow: none;
+}
+
+section:nth-of-type(3) li figcaption:first-child {
+	text-align: center;
+}
+
+section:nth-of-type(3) li img:first-child {
+	width: 1.5em;
+    height: 1.5em;
+}
+
+section:nth-of-type(3) li h3 {
+	color: var(--color-completedBuilds-h3);
+	text-align: center;
+	margin: 0 0 .3em 0;
+	font-size: 1.5em;
+}
+ 
+section:nth-of-type(3) li p:nth-of-type(1) {
+	text-align: center;
+	margin: 0;
+	line-height: normal;
+	margin: 0 0 1.25em 0;
+}
+
+section:nth-of-type(3) li p:first-of-type span {
+	color: var(--color-highlightedName);
+}
+
+section:nth-of-type(3) li h4 {
+	color: var(--color-completedBuilds-h4);
+	background-color: var(--bg-completedBuilds-h4);
+	font-weight: bold;
+	padding: 0.75em 1em;
+	font-size: 1em;
+	margin: 0;
+}
+
+section:nth-of-type(3) li div {
+	text-align: left;
+	background-color: var(--bg-completedBuilds-third-div);
+	color: var(--color-completedBuilds-third-div);
+	padding: 0.63em 1.25em;
+}
+
+section:nth-of-type(3) li div h5 {
+	font-weight: 700;
+    font-size: 1.1em;
+    margin: 0 0 1em 0;
+}
+
+section:nth-of-type(3) li div p {
+	text-align: left;
+	font-size: 0.75em;
+}
+
+section:nth-of-type(3) li div p:nth-of-type(1), section:nth-of-type(3) li div p{
+	margin: 0;
+}
+
+section:nth-of-type(3) li div p:nth-of-type(1){
+	margin-bottom: .3em;
+	text-align: left;
+}
+
+section:nth-of-type(3) li div div {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	font-weight: 700;
+	margin-top: 1.25em;
+	border-top: .1em solid #EAEAEA;
+	padding-top: .7em;
+}
+
+section:nth-of-type(3) li div span {
+	display: flex;
+    justify-content: space-between;
+}
+
+section:nth-of-type(3) li div span p:first-of-type {
+	margin-right: .7em;
+}
+
+section:nth-of-type(3) a {
+	background-color: var(--bg-buildGuides-button-a);
+	font-family: var(--font-huisstyle);
+	color: var(--color-buildGuides-button-a);
+	padding: .5em 1em .5em 1em;
+	font-size: 1.2em;
+	border-radius: .3em;
+	border: 0;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+section:nth-of-type(3) a img {
+	width: 1em;
+	height: 1em;
+}
