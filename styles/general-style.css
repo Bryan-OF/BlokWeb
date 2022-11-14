@@ -72,9 +72,11 @@
 	--color-buildGuides-button-a: var(--color-huisstyle-white);
 
 	/* Completed Builds */
+
 	--bg-completedBuilds: var(--color-huisstyle-darkerWhite);
 	--bg-featuredBuilds: var(--color-huisstyle-orange);
 
+	--color-completedBuilds-h2-bottom-borderLine: var(--color-huisstyle-black);
 	--color-completedBuilds-h3: var(--color-huisstyle-white);
 	--color-highlightedName: var(--color-huisstyle-lightYellow);
 
@@ -380,7 +382,7 @@ footer h3 {
 	border-bottom-style: solid;
 	padding-bottom: .5em;
     border-bottom-width: .15em;
-    border-color: var(--color-footer-bottom-borderLine) ;
+    border-color: var(--color-footer-bottom-borderLine);
 }
 
 footer div ul {
