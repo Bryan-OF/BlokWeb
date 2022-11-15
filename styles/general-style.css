@@ -16,7 +16,7 @@
 /*********************/
 
 :root {
-	/* Kleuren */
+	/* Huisstyle Kleuren */
 	--color-huisstyle-black:#11131D;
 	--color-huisstyle-LighterBlack:#191B2A;
 	--color-huisstyle-darkPurple:#26293B;
@@ -46,9 +46,23 @@
 
 	/* Nav open */
 	--bg-nav-open: var(--color-huisstyle-darkPurple);
-	--color-bottom-borderLine:var(--color-huisstyle-lightGrey);
+	--color-bottom-borderLine: var(--color-huisstyle-lightGrey);
 	--bg-menu-open: var(--color-huisstyle-black);
-	--color-nav-text:var(--color-huisstyle-white);
+	--color-nav-text: var(--color-huisstyle-white);
+
+	/* footer */
+	--bg-footer: var(--color-huisstyle-darkPurple);
+	--color-footer-h3: var(--color-huisstyle-white);
+	--color-footer-h4: var(--color-huisstyle-white);
+	--color-footer-a: var(--color-huisstyle-lightBlue);
+	--color-footer-p: var(--color-huisstyle-white);
+	--color-footer-bottom-borderLine: var(--color-huisstyle-white);
+
+
+
+	/********************/
+	/* Homepage kleuren */
+	/********************/
 
 	/* kleur first section */
 	--bg-firstSection: var(--color-huisstyle-darkPurple);
@@ -80,23 +94,25 @@
 	--color-completedBuilds-h3: var(--color-huisstyle-white);
 	--color-highlightedName: var(--color-huisstyle-lightYellow);
 
-	--bg-completedBuilds-h4:var(--color-huisstyle-LighterBlack);
+	--bg-completedBuilds-h4: var(--color-huisstyle-LighterBlack);
 	--color-completedBuilds-h4: var(--color-huisstyle-white);
 
-	--bg-completedBuilds-third-div:var(--color-huisstyle-white);
-	--color-completedBuilds-third-div:var(--color-huisstyle-LighterBlack);
+	--bg-completedBuilds-third-div: var(--color-huisstyle-white);
+	--color-completedBuilds-third-div: var(--color-huisstyle-LighterBlack);
+
+	--color-completedBuilds-pageLine: var(--color-huisstyle-lightGrey);
 
 	--bg-completedBuilds-button-a: var(--color-huisstyle-lightBlue);
 	--color-completedBuilds-button-a: var(--color-huisstyle-white);
 
-	/* footer */
-	--bg-footer: var(--color-huisstyle-darkPurple);
-	--color-footer-h3: var(--color-huisstyle-white);
-	--color-footer-h4: var(--color-huisstyle-white);
-	--color-footer-a: var(--color-huisstyle-lightBlue);
-	--color-footer-p: var(--color-huisstyle-white);
 
-	--color-footer-bottom-borderLine: var(--color-huisstyle-white);
+
+	/***************/
+	/* Build Guids */
+	/***************/
+
+	--bg-buildGuidesPage: var(--color-huisstyle-white);
+	--color-buildGuidesPage-h2: ;
 }
 
 

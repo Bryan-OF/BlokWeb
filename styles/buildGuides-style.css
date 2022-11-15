@@ -1,3 +1,127 @@
 /****************/
 /* Build Guides  */
 /****************/
+
+section:nth-of-type(1) {
+	background-color: var(--bg-buildGuidesPage);
+	padding: 1.5em 1em 6em 1em;
+	text-align: center;
+}
+
+section:nth-of-type(1) h2 {
+	color: var(--color-buildGuides-h2);
+	font-size: 2em;
+	text-transform: capitalize;
+}
+
+section:nth-of-type(1) > p {
+	color: var(--color-build-guides-p);
+	opacity: 0.6;
+	font-size: 1em;
+	margin: -.5em .3em 0 .3em;
+	line-height: 1.5em;
+}
+
+section:nth-of-type(1) ul {
+	display: flex;
+	gap: 1em;
+	overflow-x: auto;
+	padding-left: 0;
+	padding-bottom: 2em;
+}
+
+section:nth-of-type(1) li {
+	background-color: var(--bg-buildGuides-courosel);
+	min-width: 18em;
+	padding: .5em;
+	list-style: none;
+}
+
+section:nth-of-type(1) h3 {
+	color: var(--color-buildGuides-h3);
+	margin-top: 0;
+	text-align: left;
+	padding: 1em .5em 0;
+}
+
+/* text-contrast change link: https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/contrast */
+section:nth-of-type(1) li p {
+	color: var(--color-buildGuides-li-p);
+	font-size: .7em;
+	font-weight: 700;
+	margin: 0em .3em 0 0;
+	text-align: left;
+	line-height: 1.5;
+	padding: 0 1em;
+}
+
+section:nth-of-type(1) div {
+	display: flex;
+	justify-content: space-between;
+	padding: 1em 0;
+}
+
+section:nth-of-type(1) div span {
+	display: flex;
+}
+
+section:nth-of-type(1) ul li:nth-of-type(2) h3 {
+	padding-bottom: .4em;
+}
+
+section:nth-of-type(1) div:nth-of-type(1) p {
+	color: var(--color-buildGuides-li-p-lastTwo);
+	font-size: 1em;
+	padding: 0em .8em;
+}
+
+section:nth-of-type(1) div:nth-of-type(1) img {
+	width: 1em;
+}
+
+section:nth-of-type(1) ul li a {
+	text-decoration: none;
+}
+
+section:nth-of-type(1) > a {
+	background-color: var(--bg-buildGuides-button-a);
+	font-family: var(--font-huisstyle);
+	color: var(--color-buildGuides-button-a);
+	padding: .5em 1em .5em 1em;
+	font-size: 1.2em;
+	border-radius: .3em;
+	border: 0;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+section:nth-of-type(1) > a img {
+	max-width: 1em;
+	height: .9em;
+	
+	display: inline-block;
+	margin-right: .5em;
+}
+
+section:nth-of-type(1) div:nth-of-type(2) {
+	background-color: var(--bg-imageColor);
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+	place-content: center;
+	padding: 2em 1em;
+}
+
+section:nth-of-type(1) div:nth-of-type(2) img {
+	width: 100%;
+}
+
+section:nth-of-type(1) div:nth-of-type(2) img:nth-of-type(1) {
+	grid-column-start: 1;
+	grid-column-end: 2;
+
+	grid-row-start: 1;
+	grid-row-end:3;
+}

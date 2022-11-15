@@ -300,13 +300,14 @@ section:nth-of-type(3) li div div {
     align-items: center;
 	font-weight: 700;
 	margin-top: 1.25em;
-	border-top: .1em solid #EAEAEA;
+	border-top: .1em solid var(--color-completedBuilds-pageLine);
 	padding: .7em 0 0 0;
 }
 
 section:nth-of-type(3) li div span {
 	display: flex;
     justify-content: space-between;
+	
 }
 
 section:nth-of-type(3) li div div span img {
