@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.94 35.94"><defs><style>.cls-1{fill:#fff;}</style></defs><circle class="cls-1" cx="27.53" cy="8.44" r="2.19"/><circle class="cls-1" cx="27.53" cy="8.44" r="2.19"/><circle class="cls-1" cx="27.53" cy="8.44" r="2.19"/><circle class="cls-1" cx="27.53" cy="8.44" r="2.19"/><path class="cls-1" d="M26.88,0H9.07C4.07,0,0,4.07,0,9.07V26.88c0,5,4.07,9.07,9.07,9.07H26.88c5,0,9.07-4.07,9.07-9.07V9.07c0-5-4.07-9.07-9.07-9.07Zm5.16,26.88c0,2.84-2.31,5.16-5.16,5.16H9.07c-2.84,0-5.16-2.31-5.16-5.16V9.07c0-2.84,2.31-5.16,5.16-5.16H26.88c2.84,0,5.16,2.31,5.16,5.16V26.88Z"/><circle class="cls-1" cx="27.53" cy="8.44" r="2.19"/><path class="cls-1" d="M17.97,8.71c-5.1,0-9.26,4.15-9.26,9.26s4.15,9.26,9.26,9.26,9.26-4.15,9.26-9.26-4.15-9.26-9.26-9.26Zm0,14.6c-2.95,0-5.35-2.4-5.35-5.35s2.4-5.34,5.35-5.34,5.35,2.4,5.35,5.34-2.4,5.35-5.35,5.35Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_2_00000023281825391086988160000008768830434998871977_"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36"
+	 style="enable-background:new 0 0 36 36;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<circle class="st0" cx="27.6" cy="8.5" r="2.2"/>
+<circle class="st0" cx="27.6" cy="8.5" r="2.2"/>
+<circle class="st0" cx="27.6" cy="8.5" r="2.2"/>
+<circle class="st0" cx="27.6" cy="8.5" r="2.2"/>
+<path class="st0" d="M26.9,0H9.1C4.1,0,0,4.1,0,9.1v17.8c0,5,4.1,9.1,9.1,9.1h17.8c5,0,9.1-4.1,9.1-9.1V9.1C36,4.1,31.9,0,26.9,0z
+	 M32.1,26.9c0,2.8-2.3,5.2-5.2,5.2H9.1c-2.8,0-5.2-2.3-5.2-5.2V9.1c0-2.8,2.3-5.2,5.2-5.2h17.8c2.8,0,5.2,2.3,5.2,5.2V26.9z"/>
+<circle class="st0" cx="27.6" cy="8.5" r="2.2"/>
+<path class="st0" d="M18,8.7c-5.1,0-9.3,4.2-9.3,9.3s4.2,9.3,9.3,9.3s9.3-4.2,9.3-9.3S23.1,8.7,18,8.7z M18,23.4
+	c-3,0-5.4-2.4-5.4-5.4s2.4-5.3,5.4-5.3s5.4,2.4,5.4,5.3S21,23.4,18,23.4z"/>
+</svg>

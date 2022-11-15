@@ -7,7 +7,7 @@
 section:nth-of-type(1) {
 	background-color: var(--bg-firstSection);
 	text-align: center;
-	padding: 1.5em 1em 3em 1em;
+	padding: 1.5em 1em 3em;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -30,25 +30,25 @@ section:nth-of-type(1) p {
 	margin: 0;
 }
 
-section:nth-of-type(1) a {
-	background-color: var(--bg-firstSection-button-a);
-	font-family: var(--font-huisstyle);
-	color: var(--color-firstSection-button-a);
-	padding: .5em .9em .5em .9em;
-	font-size: 1.2em;
-	border-radius: .3em;
-	border: 0;
-	font-weight: 600;
-	text-decoration: none;
-	text-transform: capitalize;
-}
-
 section:nth-of-type(1) a img {
 	max-width: 1em;
 	height: .9em;
 	
 	display: inline-block;
 	margin-right: .5em;
+}
+
+section:nth-of-type(1) > a {
+	background-color: var(--bg-firstSection-button-a);
+	font-family: var(--font-huisstyle);
+	color: var(--color-firstSection-button-a);
+	padding: .5em .9em .5em;
+	font-size: 1.2em;
+	border-radius: .3em;
+	border: 0;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: capitalize;
 }
 
 section:nth-of-type(1) > img {
@@ -65,7 +65,7 @@ section:nth-of-type(1) > img {
 
 section:nth-of-type(2) {
 	background-color: var(--bg-buildGuides);
-	padding: 1.5em 1em 6em 1em;
+	padding: 1.5em 1em 6em;
 	text-align: center;
 }
 
@@ -144,27 +144,6 @@ section:nth-of-type(2) ul li a {
 	text-decoration: none;
 }
 
-section:nth-of-type(2) > a {
-	background-color: var(--bg-buildGuides-button-a);
-	font-family: var(--font-huisstyle);
-	color: var(--color-buildGuides-button-a);
-	padding: .5em 1em .5em 1em;
-	font-size: 1.2em;
-	border-radius: .3em;
-	border: 0;
-	font-weight: 500;
-	text-decoration: none;
-	text-transform: capitalize;
-}
-
-section:nth-of-type(2) > a img {
-	max-width: 1em;
-	height: .9em;
-	
-	display: inline-block;
-	margin-right: .5em;
-}
-
 section:nth-of-type(2) div:nth-of-type(2) {
 	background-color: var(--bg-imageColor);
 	display: grid;
@@ -187,6 +166,27 @@ section:nth-of-type(2) div:nth-of-type(2) img:nth-of-type(1) {
 	grid-row-end:3;
 }
 
+section:nth-of-type(2) > a {
+	background-color: var(--bg-buildGuides-button-a);
+	font-family: var(--font-huisstyle);
+	color: var(--color-buildGuides-button-a);
+	padding: .5em 1em .5em;
+	font-size: 1.2em;
+	border-radius: .3em;
+	border: 0;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+section:nth-of-type(2) > a img {
+	max-width: 1em;
+	height: .9em;
+	
+	display: inline-block;
+	margin-right: .5em;
+}
+
 
 
 
@@ -197,7 +197,7 @@ section:nth-of-type(2) div:nth-of-type(2) img:nth-of-type(1) {
 
 section:nth-of-type(3) {
 	background-color: var(--bg-completedBuilds);
-	padding: 1.5em 1em 4em 1em;
+	padding: 1.5em 1em 4em;
 	text-align: center;
 }
 
@@ -211,7 +211,7 @@ section:nth-of-type(3) h2 {
 section:nth-of-type(3) ul {
     display: flex;
     gap: 1em;
-    padding: 0 0 2em 0;
+    padding: 0 0 2em;
 	overflow-x: auto;
     text-align: left;
 }
@@ -221,8 +221,7 @@ section:nth-of-type(3) li {
 	display: grid;
     grid-column-gap: 1em;
     grid-auto-columns: 17.8em;
-	box-shadow: 0px .1em .1em rgb(0 0 0 / 20%);
-
+	box-shadow: 0 .1em .1em rgb(0 0 0 / 20%);
 }
 
 section:nth-of-type(3) li:first-child {
@@ -243,7 +242,7 @@ section:nth-of-type(3) li img:first-child {
 section:nth-of-type(3) li h3 {
 	color: var(--color-completedBuilds-h3);
 	text-align: center;
-	margin: 0 0 .3em 0;
+	margin: 0 0 .3em;
 	font-size: 1.5em;
 }
  
@@ -251,7 +250,7 @@ section:nth-of-type(3) li p:nth-of-type(1) {
 	text-align: center;
 	margin: 0;
 	line-height: normal;
-	margin: 0 0 1.25em 0;
+	margin: 0 0 1.25em;
 }
 
 section:nth-of-type(3) li p:first-of-type span {
@@ -267,6 +266,20 @@ section:nth-of-type(3) li h4 {
 	margin: 0;
 }
 
+/* image crop link: https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit */
+
+section:nth-of-type(3) li:nth-of-type(1) > img {
+	width: 285px;
+	height: 125px;
+	object-fit: cover;
+}
+
+section:nth-of-type(3) li > img {
+	width: 285px;
+	height: 245px;
+	object-fit: cover;
+}
+
 section:nth-of-type(3) li div {
 	text-align: left;
 	background-color: var(--bg-completedBuilds-third-div);
@@ -277,7 +290,7 @@ section:nth-of-type(3) li div {
 section:nth-of-type(3) li div h5 {
 	font-weight: 700;
     font-size: 1.1em;
-    margin: 0 0 1em 0;
+    margin: 0 0 1em;
 }
 
 section:nth-of-type(3) li div p {
@@ -290,7 +303,6 @@ section:nth-of-type(3) li div p:nth-of-type(1), section:nth-of-type(3) li div p{
 }
 
 section:nth-of-type(3) li div p:nth-of-type(1){
-	margin-bottom: .3em;
 	text-align: left;
 }
 
@@ -301,13 +313,13 @@ section:nth-of-type(3) li div div {
 	font-weight: 700;
 	margin-top: 1.25em;
 	border-top: .1em solid var(--color-completedBuilds-pageLine);
-	padding: .7em 0 0 0;
+	padding: .7em 0 0;
 }
 
 section:nth-of-type(3) li div span {
 	display: flex;
     justify-content: space-between;
-	
+	align-items: center;
 }
 
 section:nth-of-type(3) li div div span img {
@@ -319,11 +331,11 @@ section:nth-of-type(3) li div span p:first-of-type {
 	margin-right: .7em;
 }
 
-section:nth-of-type(3) a {
+section:nth-of-type(3) > a {
 	background-color: var(--bg-buildGuides-button-a);
 	font-family: var(--font-huisstyle);
 	color: var(--color-buildGuides-button-a);
-	padding: .5em 1em .5em 1em;
+	padding: .5em 1em .5em;
 	font-size: 1.2em;
 	border-radius: .3em;
 	border: 0;
@@ -332,7 +344,10 @@ section:nth-of-type(3) a {
 	text-transform: capitalize;
 }
 
-section:nth-of-type(3) a img {
-	width: 1em;
-	height: 1em;
+section:nth-of-type(3) > a img {
+	max-width: 1em;
+	height: .9em;
+	
+	display: inline-block;
+	margin-right: .5em;
 }

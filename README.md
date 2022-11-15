@@ -336,4 +336,5 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   12. [Sticky header Source: FED 22/23 - Flexbox - Oefening 2 - uitwerking](https://codepen.io/shooft/pen/zYWWXmG)
   13. [Text-contrast change](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/contrast)
   14. [website om afbeelding te testen en hoe ze passen](https://placeholder.com/)
+  15. [Image crop in css](https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit)
 </details>
