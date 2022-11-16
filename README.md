@@ -283,11 +283,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <p align="left"><img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1"></p>
+  <p align="left"><img src="karakteristiek_i_think.png" width="275px" alt="uitomst opdracht 1"></p>
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  <p align="left"><img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top"></p>
+  <p align="left"><img src="readme-images/final_website_desktop.png" width="275px" alt="Desktop"></p>
+  <p align="left"><img src="readme-images/final_website_mobile.png" width="275px" alt="Mobile"></p>
 
   Ik heb geleerd hoe ik moet coderen zonder het klasse-element en hoe ik sommige problemen kan oplossen door buiten de gebaande paden te denken.
 
