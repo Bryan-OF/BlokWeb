@@ -206,6 +206,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  Door het gebruik van een contrast heb ik ontdekt dat van de kleuren op de website niet goed uitkomen omdat ze te veel opgaan in de achtergrondkleur of een te klein lettertype gebruiken.
+
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
@@ -283,7 +285,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Let op de detail! geen spelfouten in text en code
   - om hulp vragen als het iets lukt
   - ...
-
 </details>
 
 
