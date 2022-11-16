@@ -112,7 +112,7 @@ section:nth-of-type(1) > a {
 	background-color: var(--bg-buildGuides-button-a);
 	font-family: var(--font-huisstyle);
 	color: var(--color-buildGuides-button-a);
-	padding: .5em 1em .5em 1em;
+	padding: .5em 1em;
 	font-size: 1.2em;
 	border-radius: .3em;
 	border: 0;
@@ -127,4 +127,33 @@ section:nth-of-type(1) > a img {
 	
 	display: inline-block;
 	margin-right: .5em;
+}
+
+@media (min-width: 48em) {
+	section:nth-of-type(1) h1 {
+		font-size: 2.5em;
+	}
+
+	section:nth-of-type(1) h2 {
+		font-size: 1.5em;
+	}
+
+	section:nth-of-type(1) ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	section:nth-of-type(1) li {
+		width: 24%;
+	}
+
+	section:nth-of-type(1) > a {
+		font-size: 2em;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	section:nth-of-type(1) ul {
+		filter:brightness(.75);
+	}
 }

@@ -176,6 +176,7 @@ header nav:nth-of-type(1) ul {
 	gap: 1.8em;
 }
 
+
 header nav:nth-of-type(1) ul li:first-of-type {
 	margin-right: auto;
 }
@@ -235,14 +236,14 @@ header button span:nth-of-type(1) {
 	/* met transform: */
 	/* .4em omhoog */
 	/* developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateY */
-	transform: translateY(-.4em);
+	transform: translateY(-.6em);
 }
   
 /* het derde streepje */
 header button span:nth-of-type(3) {
 	/* met transform: */
 	/* .4em omlaag */
-	transform: translateY(.4em);
+	transform: translateY(.6em);
 }
 
 
@@ -452,19 +453,126 @@ footer > ul img {
 	width: 2em;
 }
 
+@media (max-width: 48em) {
+	header nav:nth-of-type(1) ul li:first-of-type a:nth-of-type(2) {
+		display: none;
+	}
+}
+
 @media (min-width: 48em) {
+	
+	header nav:nth-of-type(2) ul li a {
+		font-size: 2em;
+	}
+
+	header nav:nth-of-type(1) ul li:first-of-type a:nth-of-type(1) {
+		display: none;
+	}
+
+	header nav:nth-of-type(2) li:nth-of-type(1) {
+		padding: 0.2em 1em;
+	}
+
+	header nav:nth-of-type(2) li:nth-of-type(1) {
+		font-size: 1.5em;
+	}
+
+	header nav:nth-of-type(1) li:nth-of-type(1) img {
+		width: 10em;
+	}
+
 	footer > div {
 		display: flex;
 		justify-content: space-around;
-	}
-
-	footer h2 {
-		text-align: center;
 	}
 	
 	footer > img {
 		display: block;
 		margin: 0 auto;
+		width: 5em;
+	}
+
+	footer h2 {
+		text-align: center;
+		font-size: 2em;
+	}
+
+	footer h3 {
+		font-size: 1.5em;
+	}
+
+	footer div ul li {
+		font-size: 1.2em;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+
+	header button {
+		filter:brightness(.75);
+	}
+
+	section:nth-of-type(1) h1 {
+		filter:brightness(.75);
+	}
+
+	section:nth-of-type(1) {
+		background-color: var(--color-huisstyle-black);
+	}
+
+	section > a {
+		filter:brightness(.75);
+	}
+
+	section:nth-of-type(1) p {
+		filter:brightness(.75);
+	}
+
+	section:nth-of-type(2) {
+		background-color: var(--color-huisstyle-LighterBlack);
+	}
+
+	section:nth-of-type(2) h2 {
+		filter:brightness(.75);
+	}
+
+	section:nth-of-type(2) ul {
+		filter:brightness(.75);
+	}
+
+	section:nth-of-type(3) {
+		background-color: var(--color-huisstyle-darkPurple);
+	}
+
+	section:nth-of-type(3) h2 {
+		color: var(--color-huisstyle-white);
+		filter:brightness(.75);
+		border-color:var(--color-huisstyle-white)
+	}
+
+	section:nth-of-type(3) ul {
+		filter:brightness(.75);
+	}
+
+	img {
+		filter:brightness(.75);
+	}
+
+	footer {
+		background-color: var(--color-huisstyle-black);
+	}
+
+	footer h2 {
+		filter:brightness(.75);
+	}
+
+	footer h3 {
+		filter:brightness(.75);
+	}
+
+	footer div ul li {
+		color: var(--color-huisstyle-white);
+		filter: brightness(.75);
 	}
 }
 

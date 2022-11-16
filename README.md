@@ -170,9 +170,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <p align="left"><img src="readme-images/voortgang2_week3/html_p3_week3.png" width="275px" alt="HTML van website"></p>
 
   CSS
-  <p align="left"><img src="readme-images/voortgang2_week3/css_p1_week3"  width="275px" alt="CSS van website"></p>
-  <p align="left"><img src="readme-images/voortgang2_week3/css_p2_week3" width="275px" alt="CSS van website"></p>
-  <p align="left"><img src="readme-images/voortgang2_week3/css_p3_week3" width="275px" alt="CSS van website"></p>
+  <p align="left"><img src="readme-images/voortgang2_week3/css_p1_week3.png"  width="275px" alt="CSS van website"></p>
+  <p align="left"><img src="readme-images/voortgang2_week3/css_p2_week3.png" width="275px" alt="CSS van website"></p>
+  <p align="left"><img src="readme-images/voortgang2_week3/css_p3_week3.png" width="275px" alt="CSS van website"></p>
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -204,33 +204,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 8e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
-  Door het gebruik van een contrast heb ik ontdekt dat van de kleuren op de website niet goed uitkomen omdat ze te veel opgaan in de achtergrondkleur of een te klein lettertype gebruiken.
+  - Sommige elementen in de donkere modus veranderden van kleur en sommige niet.
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  - Mijn website is navigeerbaar met een schermlezer alleen omdat ik een verborgen menu heb leest het ook de tekst daarin
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  - De website is scrollbaar en kan worden genavigeerd met alleen de muis of het toetsenbord.
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  - Alle klikbare elementen zijn groot genoeg om een verkeerde klik hopelijk te vermijden
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  - Door een contrastchecker te gebruiken, heb ik ontdekt dat sommige kleuren op de website er niet goed uitzien omdat ze te veel opgaan in de achtergrondkleur of een te klein lettertype gebruiken.
 </details>
 
 
@@ -297,19 +283,29 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <p align="left"><img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1"></p>
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  <p align="left"><img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top"></p>
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  Ik heb geleerd hoe ik moet coderen zonder het klasse-element en hoe ik sommige problemen kan oplossen door buiten de gebaande paden te denken.
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  De website en hoe het is gelukt bij mij
+  <p align="left"><img src="readme-images/pc_part_picker_home_pagina.png" width="275px" alt="bummer"></p>
+
+  <p align="left"><img src="readme-images/slechte_maar_enige_screenshot.png" width="275px" alt="bummer"></p>
+  maar het viel uit elkaar als ik het wat er gebeurde als ik het kleiner maakte
+
+  Ik wilde eerst het eerste deel zo stylen als de originele website, maar uiteindelijk heb ik dat niet gedaan omdat het met de responsives erg uit elkaar zou vallen.
+
+  <p align="left"><img src="readme-images/niet_compleet_responcive.png" width="275px" alt="bummer"></p>
+  Het is me ook niet gelukt om de website 100% responsive te maken, alle div in de li staan verkeerd en dat irriteert me enorm.
+
+  <p align="left"><img src="readme-images/media_(prefereert _kleurenschema_ donker)_niet_netjes.png" width="275px" alt="bummer"></p>
+  Alles netjes benoemen, het klopt overal behalve bij @media (prefereert kleurenschema: donker)
 </details>
 
 
